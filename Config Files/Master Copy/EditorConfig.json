@@ -1,0 +1,41 @@
+{
+    "Editor":[
+        {
+            "System" : "Graphics",
+            "Window" :
+            {
+                "Title" : "StormEngine",
+                "Fullscreen" : "OFF",
+                "Width" : 1440,
+                "Height" : 810
+            },
+            "Performance" : {
+                "FPS":60,
+                "Profiler": "ON" 
+            },
+
+            "Theme": 
+            {
+                "Type" : "Preset",
+                "Current" : "Hurricane Blue"
+            }
+            
+        },
+        {
+            "System": "Audio",
+            "BGM" : 
+            {
+                "State": "ON",
+                "Name" : "BGM_ROCK",
+                "Volume" : 20
+            },
+            "Assets" :
+            {
+                "State" :"ON",
+                "Volume" : 20
+            }
+        }
+        
+    ]
+    
+}

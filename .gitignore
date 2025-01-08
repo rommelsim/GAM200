@@ -1,0 +1,46 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# vs files
+*.vs/
+*.pdb
+*.idb
+*.tlog
+*.ilk
+*.pch
+*.log
+
+# Build Results
+x64/
+x86/
+StormEngine/x64/
+Editor/x64/
+InPlainSight/x64/
+
+
+# Logs
+*.log

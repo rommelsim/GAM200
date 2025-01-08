@@ -1,0 +1,467 @@
+{
+    "Level": "Cutscene",
+    "Asset": "Scene",
+    "Version": "1.140223",
+    "Game Objects": [
+        {
+            "Name": "Cutscene 1",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_1.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Cutscene 2",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_2.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Cutscene 3",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_3.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Cutscene 4",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_4.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Cutscene 5",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_5.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Cutscene 6",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_6.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Cutscene 7",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_7.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Cutscene 8",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_8.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Cutscene 9",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_9.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Cutscene 10",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_10.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        }
+    ]
+}

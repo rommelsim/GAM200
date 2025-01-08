@@ -1,0 +1,485 @@
+{
+  "Level": "Settings",
+  "Asset": "Scene",
+  "Version": "1.140223",
+  "Game Objects": [
+    {
+      "Name": "Settings Main Menu0",
+      "Transform": {
+        "Scale": [
+          845.0,
+          450.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          3.755002021789551,
+          -21.149255752563477
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -46.244998931884766,
+          -71.14925384521484
+        ],
+        "Max": [
+          53.755001068115234,
+          28.850744247436523
+        ],
+        "Scale": [
+          50.0,
+          50.0
+        ],
+        "Position": [
+          3.755002021789551,
+          -21.149255752563477
+        ]
+      },
+      "Texture": {
+        "Render Layer": "Gameplay",
+        "Render Priority": "0",
+        "States": {
+          "Null": [
+            "./Assets/Textures\\UI_Settings_BG.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "Name": "Resolution Header ",
+      "Transform": {
+        "Scale": [
+          211.80999755859375,
+          44.47999954223633
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -392.3647766113281,
+          80.22000122070313
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -442.3647766113281,
+          30.220001220703125
+        ],
+        "Max": [
+          -342.3647766113281,
+          130.22000122070313
+        ],
+        "Scale": [
+          50.0,
+          50.0
+        ],
+        "Position": [
+          -392.3647766113281,
+          80.22000122070313
+        ]
+      },
+      "Texture": {
+        "Render Layer": "UI Elements",
+        "Render Priority": "0",
+        "States": {
+          "Null": [
+            "./Assets/Textures\\Resolution_Header.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "Name": "Empty Bar",
+      "Transform": {
+        "Scale": [
+          330.5,
+          18.5
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          255.97999572753906,
+          -145.0440216064453
+        ]
+      },
+      "Collision": {
+        "Min": [
+          205.97999572753906,
+          -195.0440216064453
+        ],
+        "Max": [
+          305.97998046875,
+          -95.04402160644531
+        ],
+        "Scale": [
+          50.0,
+          50.0
+        ],
+        "Position": [
+          255.97999572753906,
+          -145.0440216064453
+        ]
+      },
+      "Texture": {
+        "Render Layer": "UI Elements",
+        "Render Priority": "1",
+        "States": {
+          "Null": [
+            "./Assets/Textures\\UI_Settings_Bar_Empty.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "Name": "Exit button default2",
+      "Transform": {
+        "Scale": [
+          300.0,
+          300.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -750.0,
+          370.0
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -800.0,
+          320.0
+        ],
+        "Max": [
+          -700.0,
+          420.0
+        ],
+        "Scale": [
+          50.0,
+          50.0
+        ],
+        "Position": [
+          -750.0,
+          370.0
+        ]
+      },
+      "Texture": {
+        "Render Layer": "UI Elements",
+        "Render Priority": "1",
+        "States": {
+          "Mouse Hovering": [
+            "./Assets/Textures\\VFX_Settings_Exit_Red_4R_5C_20F.png",
+            4,
+            5,
+            20,
+            1
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures\\Exit_Button_Default.png",
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "Button_Behaviour": {
+      }
+    },
+    {
+      "Name": "Resolution Option",
+      "Transform": {
+        "Scale": [
+          233.5399932861328,
+          48.04999923706055
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          274.63677978515625,
+          83.40682220458984
+        ]
+      },
+      "Collision": {
+        "Min": [
+          224.63677978515625,
+          46.906822204589844
+        ],
+        "Max": [
+          324.63677978515625,
+          119.90682220458984
+        ],
+        "Scale": [
+          0,0
+        ],
+        "Position": [
+          1000,1000
+        ]
+      },
+      "Texture": {
+        "Render Layer": "UI Elements",
+        "Render Priority": "2",
+        "States": {
+          "Inactive": [
+            "./Assets/Textures\\Windowed.png",
+            1,
+            1,
+            1,
+            1.0
+          ],
+          "Active": [
+            "./Assets/Textures\\Fullscreen.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        }
+      },
+      "Button_Behaviour": {
+      }
+    },
+    {
+      "Name": "Right Arrow",
+      "Transform": {
+        "Scale": [
+          28.585094451904297,
+          29.297401428222656
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          591.471435546875,
+          83.93619537353516
+        ]
+      },
+      "Collision": {
+        "Min": [
+          541.471435546875,
+          33.936195373535156
+        ],
+        "Max": [
+          641.471435546875,
+          133.93618774414063
+        ],
+        "Scale": [
+          50.0,
+          50.0
+        ],
+        "Position": [
+          591.471435546875,
+          83.93619537353516
+        ]
+      },
+      "Texture": {
+        "Render Layer": "UI Elements",
+        "Render Priority": "1",
+        "States": {
+          "Null": [
+            "./Assets/Textures\\UI_Settings_Resolution_Arrow_Right.png",
+            1,
+            1,
+            1,
+            1.0
+          ],
+          "Mouse Hovering": [
+            "./Assets/Textures\\UI_Settings_Resolution_Arrow_Right.png",
+            1,
+            1,
+            1,
+            1
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures\\UI_Settings_Resolution_Arrow_Right.png",
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "Button_Behaviour": {
+      }
+    },
+    {
+      "Name": "Button",
+      "Transform": {
+        "Scale": [
+          47.0,
+          40.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          597.8300170898438,
+          -146.50999450683594
+        ]
+      },
+      "Collision": {
+        "Min": [
+          547.8300170898438,
+          -196.50999450683594
+        ],
+        "Max": [
+          647.8300170898438,
+          -96.50999450683594
+        ],
+        "Scale": [
+          50.0,
+          50.0
+        ],
+        "Position": [
+          597.8300170898438,
+          -146.50999450683594
+        ]
+      },
+      "Texture": {
+        "Render Layer": "UI Elements",
+        "Render Priority": "3",
+        "States": {
+          "Null": [
+            "./Assets/Textures\\UI_Settings_Bar_Cursor.png",
+            1,
+            1,
+            1,
+            1.0
+          ],
+          "Mouse Hovering": [
+            "./Assets/Textures\\UI_Settings_Bar_Cursor.png",
+            1,
+            1,
+            1,
+            1
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures\\UI_Settings_Bar_Cursor.png",
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "Button_Behaviour": {
+      }
+    },
+    {
+      "Name": "Left Arrow",
+      "Transform": {
+        "Scale": [
+          28.5,
+          30.5
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -45.61953353881836,
+          82.52533721923828
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -95.61953735351563,
+          32.52533721923828
+        ],
+        "Max": [
+          4.380466461181641,
+          132.52532958984375
+        ],
+        "Scale": [
+          50.0,
+          50.0
+        ],
+        "Position": [
+          -45.61953353881836,
+          82.52533721923828
+        ]
+      },
+      "Texture": {
+        "Render Layer": "UI Elements",
+        "Render Priority": "1",
+        "States": {
+          "Null": [
+            "./Assets/Textures\\UI_Settings_Resolution_Arrow_Left.png",
+            1,
+            1,
+            1,
+            1.0
+          ],
+          "Mouse Hovering": [
+            "./Assets/Textures\\UI_Settings_Resolution_Arrow_Left.png",
+            1,
+            1,
+            1,
+            1
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures\\UI_Settings_Resolution_Arrow_Left.png",
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "Button_Behaviour": {
+      }
+    },
+    {
+      "Name": "Volume Control Header ",
+      "Transform": {
+        "Scale": [
+          216.39999389648438,
+          51.04999923706055
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -388.5299987792969,
+          -143.10000610351563
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -438.5299987792969,
+          -193.10000610351563
+        ],
+        "Max": [
+          -338.5299987792969,
+          -93.10000610351563
+        ],
+        "Scale": [
+          50.0,
+          50.0
+        ],
+        "Position": [
+          -388.5299987792969,
+          -143.10000610351563
+        ]
+      },
+      "Texture": {
+        "Render Layer": "UI Elements",
+        "Render Priority": "0",
+        "States": {
+          "Null": [
+            "./Assets/Textures\\Volume_Control_Header.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        }
+      }
+    }
+  ]
+}

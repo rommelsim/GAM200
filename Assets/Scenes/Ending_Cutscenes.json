@@ -1,0 +1,283 @@
+{
+    "Level": "Ending",
+    "Asset": "Scene",
+    "Version": "1.140223",
+    "Game Objects": [
+        {
+            "Name": "Ending 1",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_Ending_1.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Ending 2",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_Ending_2.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Ending 3",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_Ending_3.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Ending 4",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_Ending_4.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Ending 5",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_Ending_5.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Ending 6",
+            "Transform": {
+                "Scale": [
+                    703.239990234375,
+                    419.739990234375
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\Menu_HUD_Cutscenes_Ending_6.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        }
+    ]
+}

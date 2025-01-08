@@ -1,0 +1,115 @@
+{
+  
+  "Game Objects": [
+    {
+      "Name": "Flora0",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -382.921142578125, 152.23878479003906 ]
+      },
+      "Collision": {
+        "Min": [ -10.0, -10.0 ],
+        "Max": [ 10.0, 10.0 ],
+        "Scale": [ 10.0, 10.0 ],
+        "Position": [ -382.921142578125, 152.23878479003906 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\Environment_Flora_Bush_1.png"
+      }
+    },
+    {
+      "Name": "Flora1",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ 69.89048767089844, 117.91043853759766 ]
+      },
+      "Collision": {
+        "Min": [ -10.0, -10.0 ],
+        "Max": [ 10.0, 10.0 ],
+        "Scale": [ 10.0, 10.0 ],
+        "Position": [ 69.89048767089844, 117.91043853759766 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\Environment_Flora_Bush_1.png"
+      }
+    },
+    {
+      "Name": "Tall Grass 4",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -189.9840087890625, 1.492537260055542 ]
+      },
+      "Collision": {
+        "Min": [ -10.0, -10.0 ],
+        "Max": [ 10.0, 10.0 ],
+        "Scale": [ 10.0, 10.0 ],
+        "Position": [ -189.9840087890625, 1.492537260055542 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\Environment_Flora_TallGrass_Blue_2.png"
+      }
+    },
+    {
+      "Name": "Cupboard2",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -345.5149841308594, -201.49252319335938 ]
+      },
+      "Collision": {
+        "Min": [ -10.0, -10.0 ],
+        "Max": [ 10.0, 10.0 ],
+        "Scale": [ 10.0, 10.0 ],
+        "Position": [ -345.5149841308594, -201.49252319335938 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\Environment_Prop_Cupboard_1.png"
+      }
+    },
+    {
+      "Name": "Cupboard3",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ 4.921865463256836, -186.567138671875 ]
+      },
+      "Collision": {
+        "Min": [ -10.0, -10.0 ],
+        "Max": [ 10.0, 10.0 ],
+        "Scale": [ 10.0, 10.0 ],
+        "Position": [ 4.921865463256836, -186.567138671875 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\Environment_Prop_Cupboard_1.png"
+      },
+      "Behaviour": {
+        "Health": 100,
+        "Movement Speed": 20.0,
+        "Interact": "A"
+      }
+    }
+  ]
+}

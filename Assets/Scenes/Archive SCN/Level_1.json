@@ -1,0 +1,206 @@
+{
+
+  "Game Objects": [
+    {
+      "Name": "Player",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ 307.7584533691406, -88.54859161376953 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Background",
+        "Texture Path": "./Assets/Textures/Character_MainCharacter_Sprite.png",
+        "Render Priority": "0"
+      },
+      "Behaviour": {
+        "Health": 100,
+        "Movement Speed": 20.0,
+        "Interact": "A"
+      }
+    },
+    {
+      "Name": "Background0",
+      "Transform": {
+        "Scale": [ 1000.0, 1000.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ 0.0, 0.0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Background",
+        "Texture Path": "./Assets/Textures/Environment_Background_Concept.png",
+        "Render Priority": "0"
+      }
+    },
+    {
+      "Name": "Chair2",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -104.93000030517578, -125.62000274658203 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Background",
+        "Texture Path": "./Assets/Textures/Environment_Prop_Chair_2.png",
+        "Render Priority": "0"
+      }
+    },
+    {
+      "Name": "Long \nTable5",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -264.7754211425781, -129.82688903808594 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Background",
+        "Texture Path": "./Assets/Textures/Environment_Prop_Longtable.png",
+        "Render Priority": "0"
+      }
+    },
+    {
+      "Name": "Victim3",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -321.51300048828125, 63.24899673461914 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Background",
+        "Texture Path": "./Assets/Textures/Character_NPC_Victim_Sprite.png",
+        "Render Priority": "0"
+      }
+    },
+
+    {
+      "Name": "Mop6",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -701.4829711914063, -377.49664306640625 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Background",
+        "Texture Path": "./Assets/Textures/Environment_Prop_Interactables_Mop.png",
+        "Render Priority": "0"
+      }
+    },
+    {
+      "Name": "Bunny",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -300, -377.49664306640625 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "States": {
+          "Alert": [ "./Assets/Textures/NPC_Bunny_Alert_7R_10C_62F.png", 7, 10, 62, 1.0 ],
+          "Idle": [ "./Assets/Textures/NPC_Bunny_Idle_5R_8C_40F.png", 5, 8, 40, 1.0 ],
+          "Walking": [ "./Assets/Textures/NPC_Bunny_Walk_5R_6C_27F.png", 5, 6, 27, 1.0 ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "8"
+      }
+    },
+    {
+      "Name": "Moose",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -500, -350 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "States": {
+          "Idle": [ "./Assets/Textures/NPC_Moose_Idle_5R_8C_40F.png", 5, 8, 40, 1.0 ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "8"
+      }
+    },
+    {
+      "Name": "Deer",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -650, -150 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "States": {
+          "Idle": [ "./Assets/Textures/NPC_Deer_Idle_6R_10C_60F.png", 6, 10, 60, 1.0 ],
+          "Alert": [ "./Assets/Textures/NPC_Deer_Alert_5R_8C_40F.png", 5, 8, 40, 1.0 ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "8"
+      }
+    },
+    {
+      "Name": "Jack In The Box",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -650, 250 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "States": {
+          "Idle": [ "./Assets/Textures/Prop_Jack-In-The-Box_Pop_10R_15C_144F.png", 10, 15, 144, 1.0 ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "8"
+      }
+    },
+    {
+      "Name": "Lose VFX",
+      "Transform": {
+        "Scale": [ 200.0, 200.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ 0, 0 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "States": {
+          "Idle": [ "./Assets/Textures/VFX_GameLost_6R_5C_30F.png", 6, 5, 30, 1.0 ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "8"
+      }
+    },
+    {
+      "Name": "Level Complete VFX",
+      "Transform": {
+        "Scale": [ 1000.0, 1000.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ 0, 0 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "States": {
+          "Idle": [ "./Assets/Textures/VFX_LevelComplete_10R_6C_60F.png", 10, 6, 60, 1.0 ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "8"
+      }
+    }
+  ]
+}

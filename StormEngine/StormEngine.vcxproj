@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{03728666-d935-4590-99a0-12b6ed1999a0}</ProjectGuid>
+    <RootNamespace>StormEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\prop_pages\stormengine_prop_debug64.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\prop_pages\stormengine_prop_release64.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ConsoleColor.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Matrix3x3.h" />
+    <ClInclude Include="Matrix4x4.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="SEAnimation.h" />
+    <ClInclude Include="SEAudio.h" />
+    <ClInclude Include="SECollision.h" />
+    <ClInclude Include="SEDebug.h" />
+    <ClInclude Include="SEDialogue.h" />
+    <ClInclude Include="SEEngine.h" />
+    <ClInclude Include="SEFactory.h" />
+    <ClInclude Include="SEGraphics.h" />
+    <ClInclude Include="SEGui.h" />
+    <ClInclude Include="SEGuiDatabase.h" />
+    <ClInclude Include="SELayers.h" />
+    <ClInclude Include="SELayerStack.h" />
+    <ClInclude Include="SELogger.h" />
+    <ClInclude Include="SEParticleSystem.h" />
+    <ClInclude Include="SEResource.h" />
+    <ClInclude Include="SERigidBody.h" />
+    <ClInclude Include="SEScripting.h" />
+    <ClInclude Include="SESerialiser.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="Vector3D.h" />
+    <ClInclude Include="Vector4D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Matrix3x3.cpp" />
+    <ClCompile Include="Matrix4x4.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="SEAnimation.cpp" />
+    <ClCompile Include="SEAudio.cpp" />
+    <ClCompile Include="SECollision.cpp" />
+    <ClCompile Include="SEDebug.cpp" />
+    <ClCompile Include="SEDialogue.cpp" />
+    <ClCompile Include="SEEngine.cpp" />
+    <ClCompile Include="SEFactory.cpp" />
+    <ClCompile Include="SEGraphics.cpp" />
+    <ClCompile Include="SEGui.cpp" />
+    <ClCompile Include="SEGuiDatabase.cpp" />
+    <ClCompile Include="SELayers.cpp" />
+    <ClCompile Include="SELayerStack.cpp" />
+    <ClCompile Include="SELogger.cpp" />
+    <ClCompile Include="SEParticleSystem.cpp" />
+    <ClCompile Include="SEResource.cpp" />
+    <ClCompile Include="SERigidBody.cpp" />
+    <ClCompile Include="SEScripting.cpp" />
+    <ClCompile Include="SESerialiser.cpp" />
+    <ClCompile Include="SEWaypointSystem.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+    <ClCompile Include="Vector3D.cpp" />
+    <ClCompile Include="Vector4D.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,73 @@
+{
+    "Game Objects": [
+        {
+            "Name": "NPC Muse32",
+            "Transform": {
+                "Scale": [
+                    40.0,
+                    50.0
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    -695,
+                    -42
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -269.16998291015625,
+                    39.08955383300781
+                ],
+                "Max": [
+                    -169.1699981689453,
+                    139.0895538330078
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    -531.0,
+                    21.0
+                ]
+            },
+            "Texture": {
+                "Animating": true,
+                "Render Layer": "Foreground",
+                "Render Priority": "8",
+                "States": {
+                    "Idle": [
+                        "./Assets/Textures/NPC_Deer_Idle_6R_10C_60F.png",
+                        6,
+                        10,
+                        60,
+                        1.0
+                    ],
+                    "Walking": [
+                        "./Assets/Textures/NPC_Deer_Walk_5R_6C_27F.png",
+                        5,
+                        6,
+                        27,
+                        1.0
+                    ],
+                    "Alert": [
+                        "./Assets/Textures/NPC_Deer_Alert_5R_8C_40F.png",
+                        5,
+                        8,
+                        40,
+                        1.0
+                    ]
+                }
+            },
+            "NPC_Behaviour": {
+                "Movement Speed": 0.5
+            }, 
+            "Dialogue" :
+            {
+                
+            }
+        }
+    ]
+}
+

@@ -1,0 +1,58 @@
+{
+    "Game Objects": [
+      {
+        "Name":  "Sus Meter Animation",
+        "Transform" : { 
+          "Scale": [
+            100.0,
+            100.0
+          ],
+          "Rotation Angle": 0.0,
+          "Rotation Speed": 0.0,
+          "Translate": [
+            -250.0,
+            100.0
+          ]
+        },
+        "Texture" : {
+          "Animating": true,
+          "Render Layer": "UI Elements",
+          "Render Priority": "100",
+          "States" : {
+            "Idle": [
+              "./Assets/Textures/VFX_SusUI_IncreaseMeter_4R_5C_18F.png",
+              4,
+              5,
+              18,
+              1.0
+            ]
+         }
+        },
+        "SusMeter_Behaviour": {
+        }
+      },
+      {
+        "Name":  "Sus Meter Arrow",
+        "Transform" : { 
+          "Scale": [
+            40.0,
+            40.0
+          ],
+          "Rotation Angle": 0.0,
+          "Rotation Speed": 180.0,
+          "Translate": [
+            -252.0,
+            115.0
+          ]
+        },
+        "Texture" : {
+          "Animating": false,
+          "Render Layer": "UI Elements",
+          "Render Priority": "101",
+          "Texture Path" : "./Assets/Textures/UI_SusMeter_Arrow.png"
+         },
+        "SusMeter_Behaviour": {
+        }
+      }
+    ]
+  }

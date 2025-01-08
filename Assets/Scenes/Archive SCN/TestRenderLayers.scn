@@ -1,0 +1,78 @@
+{
+  "Game Objects": 
+  [
+    {
+      "Name": "Main Character",
+      "Color": {
+        "RGB": [ 0.5, 0, 0 ]
+      },
+      "Transform": {
+        "Scale": [ 100, 100 ],
+        "Rotation Angle": 0,
+        "Rotation Speed": 0,
+        "Translate": [ -100.0, -100.0 ]
+      },
+      "Collision": {
+        "Min": [ -100, -100 ],
+        "Max": [ 100, 100 ],
+        "Scale": [ 1, 1 ],
+        "Position": [ 0, 0 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "States": {
+          "Idle": [ "./Assets/Textures/MainCharacter_Idle_80.png", 80, 1.0 ],
+          "Walking": [ "./Assets/Textures/MainCharacter_Walk_30.png", 30, 1.0 ],
+          "Cleaning": [ "./Assets/Textures/MainCharacter_Clean_Broom_24.png", 24, 1.0 ]
+        }
+      },
+      "Font": {
+        "Font Path": "./Assets/Fonts/arial.ttf"
+      }
+    },
+    {
+      "Name": "GO_2",
+      "Transform": {
+        "Scale": [ 200, 200 ],
+        "Rotation Angle": 90.0,
+        "Rotation Speed": 5.45,
+        "Translate": [ 300.0, 300.0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Texture Path": "./Assets/Textures/Character_MainCharacter_Sprite.png",
+        "Render Layer": "Gameplay", 
+        "Render Priority" :  "10"
+      }
+       
+    },
+    {
+      "Name": "Bunny",
+      "Color": {
+        "RGB": [ 0.5, 0, 0 ]
+      },
+      "Transform": {
+        "Scale": [ 100, 100 ],
+        "Rotation Angle": 45.0,
+        "Rotation Speed": 2.45,
+        "Translate": [ 250.0, 250.0 ]
+      },
+      "Collision": {
+        "Min": [ -100, -100 ],
+        "Max": [ 100, 100 ],
+        "Scale": [ 1, 1 ],
+        "Position": [ 0, 0 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "States": {
+          "Idle": [ "./Assets/Textures/NPC_Bunny_Idle_40.png", 40, 1.0 ],
+          "Walking": [ "./Assets/Textures/NPC_Bunny_Walk_27.png", 27, 1.0 ],
+          "Alert": [ "./Assets/Textures/NPC_Bunny_Alert_62.png", 62, 1.0 ]
+        }
+      }
+    }
+  ],
+  "Current Scene": "./Assets/Scenes/Level_1.json",
+  "Next Scene": "./Assets/Scenes/Level_2.json"
+}

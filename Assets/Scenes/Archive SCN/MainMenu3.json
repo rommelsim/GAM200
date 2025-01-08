@@ -1,0 +1,193 @@
+{
+  
+  "Game Objects": [
+    {
+      "Name": "Main Menu0",
+      "Transform": {
+        "Scale": [ 845.0, 450.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ 0.0, 0.0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Gameplay",
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\MenuHUD_Animations_BG.png"
+      }
+    },
+    {
+      "Name": "Main Menu Animation1",
+      "Transform": {
+        "Scale": [ 769.5, 458.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -76.5, -9.0 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "Render Layer": "Gameplay",
+        "Render Priority": "1",
+        "States": { "Idle": [ "./Assets/Textures/Main Menu_AnimatedAreas_7R_10C_66F.png", 7, 10, 66, 1.0 ] }
+      }
+    },
+    {
+      "Name": "Main Menu Credits Button3",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -575.2906494140625, -137.31341552734375 ]
+      },
+      "Collision": {
+        "Min": [ -625.2906494140625, -187.31341552734375 ],
+        "Max": [ -525.2906494140625, -87.31341552734375 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Position": [ -575.2906494140625, -137.31341552734375 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "States": {
+          "Mouse Hovering": [ "./Assets/Textures/VFX_MainMenu_Credits_Hover_4R_4C_16F.png", 4, 4, 16, 1.0 ],
+          "Mouse Idle": [ "./Assets/Textures/UI_StartMenu_Button_Credits.png", 1, 1, 1, 1.0 ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {
+
+      }
+    },
+    {
+      "Name": "Main Menu Start Button0",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -575.2906494140625, 91.04476928710938 ]
+      },
+      "Collision": {
+        "Min": [ -625.2906494140625, 41.044769287109375 ],
+        "Max": [ -525.2906494140625, 141.04476928710938 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Position": [ -575.2906494140625, 91.04476928710938 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "States": {
+          "Mouse Hovering": [ "./Assets/Textures/VFX_MainMenu_Start_Hover_4C_4R_16F.png", 4, 4, 16, 1.0 ],
+          "Mouse Idle": [ "./Assets/Textures/UI_StartMenu_Button_Start.png", 1, 1, 1, 1.0 ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {
+
+      }
+    },
+    {
+      "Name": "Main Menu Settings Button1",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -571.9400024414063, -60.5099983215332 ]
+      },
+      "Collision": {
+        "Min": [ -633.941650390625, -48.50746154785156 ],
+        "Max": [ -533.941650390625, 51.49253845214844 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Position": [ -583.941650390625, 1.492537260055542 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "States": {
+          "Mouse Hovering": [ "./Assets/Textures/VFX_MainMenu_Settings_Hover_4R_4C_16F.png", 4, 4, 16, 1.0 ],
+          "Mouse Idle": [ "./Assets/Textures/UI_StartMenu_Button_Settings.png", 1, 1, 1, 1.0 ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {
+
+      }
+    },
+    {
+      "Name": "Main Menu HowToPlay Button2",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -574.9299926757813, 16.440000534057617 ]
+      },
+      "Collision": {
+        "Min": [ -640.4298706054688, -138.0596923828125 ],
+        "Max": [ -540.4298706054688, -38.0596923828125 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Position": [ -590.4298706054688, -88.0596923828125 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "States": {
+          "Mouse Hovering": [ "./Assets/Textures/VFX_MainMenu_HTP_Hover_4R_4C_16F.png", 4, 4, 16, 1.0 ],
+          "Mouse Idle": [ "./Assets/Textures/UI_StartMenu_Button_HowtoPlay.png", 1, 1, 1, 1.0 ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {
+
+      }
+    },
+    {
+      "Name": "Start Menu Fox 5",
+      "Transform": {
+        "Scale": [ 171.0, 119.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -575.4600219726563, 222.38804626464844 ]
+      },
+      "Collision": {
+        "Min": [ -641.4573974609375, 172.38804626464844 ],
+        "Max": [ -541.4573974609375, 272.3880615234375 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Position": [ -591.4573974609375, 222.38804626464844 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Gameplay",
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\UI_GameLogo.png"
+      }
+    },
+    {
+      "Name": "Main Menu Exit Button4",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -572.780029296875, -215.8699951171875 ]
+      },
+      "Collision": {
+        "Min": [ -631.7788696289063, -276.86566162109375 ],
+        "Max": [ -531.7788696289063, -176.86566162109375 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Position": [ -581.7788696289063, -226.86566162109375 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "States": {
+          "Mouse Hovering": [ "./Assets/Textures/VFX_MainMenu_Exit_Hover_4R_4C_16F.png", 4, 4, 16, 1.0 ],
+          "Mouse Idle": [ "./Assets/Textures/UI_StartMenu_Button_Exit.png", 1, 1, 1, 1.0 ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {
+
+      }
+    }
+  ]
+}

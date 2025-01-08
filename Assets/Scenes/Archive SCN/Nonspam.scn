@@ -1,0 +1,36 @@
+5
+Alpha #Object Name
+720.00,405.00 #Position Transform->Translate ->X ->Y
+100.00,100.00 #Position Transform->Translate ->X ->Y
+0.00,0.00,0.00 #Color Color ->R ->G ->B
+./Assets/Textures/Character_NPC_3_Sprite.png 0 #Texture (if static, "0" if animated, "1")
+(710.00,395.00) (730.00,415.00) #Collision Collision ->Min(x,y) ->Max(x,y)
+
+Beta
+720.00,-405.00
+100.00,100.00
+0.00,0.00,0.00
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(710.00,-415.00) (730.00,-395.00)
+
+Charlie
+-720.00,405.00
+100.00,100.00
+0.00,0.00,0.00
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-730.00,395.00) (-710.00,415.00)
+
+Delta
+-720.00,-405.00
+100.00,100.00
+0.00,0.00,0.00
+./Assets/Textures/Character_NPC_2_Sprite.png 0
+(-730.00,-415.00) (-710.00,-395.00)
+
+sprite14
+30.37,227.77
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-19.62,177.77) (80.37,277.77)
+

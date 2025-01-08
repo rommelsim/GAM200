@@ -1,0 +1,6 @@
+Project Guide
+
+1) Before running any configuration, rebuild StormEngine solution
+2) to run editor: Set Editor as Start up project and Run
+3) to run Game: set "InPlainSight" as Start Up project and Run
+

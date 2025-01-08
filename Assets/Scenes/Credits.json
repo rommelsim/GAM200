@@ -1,0 +1,601 @@
+{
+    "Level": "Credits",
+    "Asset": "Scene",
+    "Version": "1.140223",
+    "Game Objects": [
+        {
+            "Name": "Credits 1",
+            "Transform": {
+                "Scale": [
+                    960,
+                    540
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Active": [
+                        "./Assets/Textures\\Credits_1.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ],
+                    "Inactive": [
+                        "./Assets/Textures\\Empty_Texture.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            },
+            "Credits_Behaviour": {}
+        },
+        {
+            "Name": "Credits 2",
+            "Transform": {
+                "Scale": [
+                    960,
+                    540
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Active": [
+                        "./Assets/Textures\\Credits_2.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ],
+                    "Inactive": [
+                        "./Assets/Textures\\Empty_Texture.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            },
+            "Credits_Behaviour": {}
+        },
+        {
+            "Name": "Credits 3",
+            "Transform": {
+                "Scale": [
+                    960,
+                    540
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Active": [
+                        "./Assets/Textures\\Credits_3.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ],
+                    "Inactive": [
+                        "./Assets/Textures\\Empty_Texture.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            },
+            "Credits_Behaviour": {}
+        },
+        {
+            "Name": "Credits 4",
+            "Transform": {
+                "Scale": [
+                    960,
+                    540
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Active": [
+                        "./Assets/Textures\\Credits_4.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ],
+                    "Inactive": [
+                        "./Assets/Textures\\Empty_Texture.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            },
+            "Credits_Behaviour": {}
+        },
+        {
+            "Name": "Credits 5",
+            "Transform": {
+                "Scale": [
+                    960,
+                    540
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Active": [
+                        "./Assets/Textures\\Credits_5.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ],
+                    "Inactive": [
+                        "./Assets/Textures\\Empty_Texture.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            },
+            "Credits_Behaviour": {}
+        },
+        {
+            "Name": "Credits 6",
+            "Transform": {
+                "Scale": [
+                    960,
+                    540
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Active": [
+                        "./Assets/Textures\\Credits_6.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ],
+                    "Inactive": [
+                        "./Assets/Textures\\Empty_Texture.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            },
+            "Credits_Behaviour": {}
+        },
+        {
+            "Name": "Credits 7",
+            "Transform": {
+                "Scale": [
+                    960,
+                    540
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Active": [
+                        "./Assets/Textures\\Credits_7.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ],
+                    "Inactive": [
+                        "./Assets/Textures\\Empty_Texture.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            },
+            "Credits_Behaviour": {}
+        },
+        {
+            "Name": "Credits 8",
+            "Transform": {
+                "Scale": [
+                    960,
+                    540
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Active": [
+                        "./Assets/Textures\\Credits_8.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ],
+                    "Inactive": [
+                        "./Assets/Textures\\Empty_Texture.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            },
+            "Credits_Behaviour": {}
+        },
+        {
+            "Name": "Credits Left Arrow",
+            "Transform": {
+                "Scale": [
+                    -35,
+                    35
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    -680.0,
+                    -380.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    -680.0,
+                    -380.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "UI Elements",
+                "Render Priority": "1",
+                "States": {
+                    "Active": [
+                        "./Assets/Textures\\UI_Settings_Resolution_Arrow_Right.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ],
+                    "Inactive": [
+                        "./Assets/Textures\\Empty_Texture.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            },
+            "Credits_Behaviour": {}
+        },
+        {
+            "Name": "Credits Right Arrow",
+            "Transform": {
+                "Scale": [
+                    35,
+                    35
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    700.0,
+                    -380.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -50.0,
+                    -50.0
+                ],
+                "Max": [
+                    50.0,
+                    50.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    700.0,
+                    -380.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "UI Elements",
+                "Render Priority": "1",
+                "States": {
+                    "Active": [
+                        "./Assets/Textures\\UI_Settings_Resolution_Arrow_Right.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ],
+                    "Inactive": [
+                        "./Assets/Textures\\Empty_Texture.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            },
+            "Credits_Behaviour": {}
+        },
+        {
+            "Name": "Credits Exit Button",
+            "Transform": {
+                "Scale": [
+                    300.0,
+                    300.0
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    -750.0,
+                    370.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -800.0,
+                    320.0
+                ],
+                "Max": [
+                    -700.0,
+                    420.0
+                ],
+                "Scale": [
+                    50.0,
+                    50.0
+                ],
+                "Position": [
+                    -750.0,
+                    370.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "UI Elements",
+                "Render Priority": "1",
+                "States": {
+                    "Mouse Hovering": [
+                        "./Assets/Textures\\VFX_Settings_Exit_Red_4R_5C_20F.png",
+                        4,
+                        5,
+                        20,
+                        1
+                    ],
+                    "Mouse Idle": [
+                        "./Assets/Textures\\Exit_Button_Default.png",
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "Credits_Behaviour": {}
+        }
+    ]
+}

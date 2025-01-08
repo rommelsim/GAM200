@@ -1,0 +1,200 @@
+{
+  
+  "Game Objects": [
+    {
+      "Name": "Main Menu0",
+      "Transform": {
+        "Scale": [ 828.5, 383.5 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ 0.0, 0.0 ]
+      },
+      "Collision": {
+        "Min": [ -10.0, -10.0 ],
+        "Max": [ 10.0, 10.0 ],
+        "Scale": [ 10.0, 10.0 ],
+        "Position": [ 0.0, 0.0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Gameplay",
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\MenuHUD_Animations_BG.png"
+      }
+    },
+    {
+      "Name": "Main Menu Animation1",
+      "Transform": {
+        "Scale": [ 828.5, 393.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ 0.0, -8.0 ]
+      },
+      "Collision": {
+        "Min": [ -10.0, -10.0 ],
+        "Max": [ 10.0, 10.0 ],
+        "Scale": [ 10.0, 10.0 ],
+        "Position": [ 0.0, 0.0 ]
+      },
+      "Texture": {
+        "Animating": true,
+        "Render Layer": "Gameplay",
+        "Render Priority": "1",
+        "States": { "Idle": [ "./Assets/Textures/Main Menu_AnimatedAreas_7R_10C_66F.png", 7, 10, 66, 1.0 ] }
+      }
+    },
+    {
+      "Name": "Main Menu Credits Button3",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -603.1636352539063, -154.4499969482422 ]
+      },
+      "Collision": {
+        "Min": [ -10.0, -10.0 ],
+        "Max": [ 10.0, 10.0 ],
+        "Scale": [ 10.0, 10.0 ],
+        "Position": [ 0.0, 0.0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Gameplay",
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\UI_StartMenu_Button_Credits.png"
+      },
+      "Font": {
+        "Font Path": "./Assets/Fonts/GoudyBookletter1911.ttf",
+        "Text": "Credits"
+      }
+    },
+    {
+      "Name": "Main Menu Start Button0",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -601.510009765625, 90.25 ]
+      },
+      "Collision": {
+        "Min": [ -10.0, -10.0 ],
+        "Max": [ 10.0, 10.0 ],
+        "Scale": [ 10.0, 10.0 ],
+        "Position": [ 0.0, 0.0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Gameplay",
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\UI_StartMenu_Button_Start.png"
+      },
+      "Font": {
+        "Font Path": "./Assets/Fonts/GoudyBookletter1911.ttf",
+        "Text": "Start"
+      }
+    },
+    {
+      "Name": "Main Menu Settings Button1",
+      "Transform": {
+        "Scale": [ 101.5, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -600.3099975585938, -70.91999816894531 ]
+      },
+      "Collision": {
+        "Min": [ -10.0, -10.0 ],
+        "Max": [ 10.0, 10.0 ],
+        "Scale": [ 10.0, 10.0 ],
+        "Position": [ 0.0, 0.0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Gameplay",
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\UI_StartMenu_Button_Settings.png"
+      },
+      "Font": {
+        "Font Path": "./Assets/Fonts/GoudyBookletter1911.ttf",
+        "Text": "Settings"
+      }
+    },
+    {
+      "Name": "Start Menu Fox 0",
+      "Transform": {
+        "Scale": [ 142.0, 119.5 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -602.5700073242188, 198.69000244140625 ]
+      },
+      "Collision": {
+        "Min": [ -682.574462890625, 107.68656921386719 ],
+        "Max": [ -582.574462890625, 207.6865692138672 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Position": [ -632.574462890625, 157.6865692138672 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Gameplay",
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\UI_GameLogo.png"
+      }
+    },
+    {
+      "Name": "Main Menu HowToPlay Button2",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -602.3099975585938, 2.7300000190734863 ]
+      },
+      "Collision": {
+        "Min": [ -10.0, -10.0 ],
+        "Max": [ 10.0, 10.0 ],
+        "Scale": [ 10.0, 10.0 ],
+        "Position": [ 0.0, 0.0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Gameplay",
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\UI_StartMenu_Button_HowtoPlay.png"
+      },
+      "Font": {
+        "Font Path": "./Assets/Fonts/GoudyBookletter1911.ttf",
+        "Text": "How To Play"
+      }
+    },
+    {
+      "Name": "Main Menu Exit Button4",
+      "Transform": {
+        "Scale": [ 100.0, 100.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -602.4000244140625, -235.6999969482422 ]
+      },
+      "Collision": {
+        "Min": [ -10.0, -10.0 ],
+        "Max": [ 10.0, 10.0 ],
+        "Scale": [ 10.0, 10.0 ],
+        "Position": [ 0.0, 0.0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "Gameplay",
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "Texture Path": "./Assets/Textures\\UI_StartMenu_Button_Exit.png"
+      },
+      "Font": {
+        "Font Path": "./Assets/Fonts/GoudyBookletter1911.ttf",
+        "Text": "Exit"
+      }
+    }
+  ]
+}

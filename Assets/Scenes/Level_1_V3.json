@@ -1,0 +1,4531 @@
+{
+    "Level": "Level 0",
+    "Asset": "Scene",
+    "Version": "1.140223",
+    "Game Objects": [
+      {
+        "Name": "Background0",
+        "Transform": {
+          "Scale": [
+            1000,
+            1000
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            0,
+            0
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -50,
+            -64.5
+          ],
+          "Max": [
+            50,
+            64.5
+          ],
+          "Scale": [
+            50,
+            64.5
+          ],
+          "Position": [
+            0,
+            0
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Background",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Floor Layout.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Cupboard 29",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -896.030029296875,
+            339.6600036621094
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -936.030029296875,
+            274.6600036621094
+          ],
+          "Max": [
+            -856.030029296875,
+            404.6600036621094
+          ],
+          "Scale": [
+            40,
+            65
+          ],
+          "Position": [
+            -896.030029296875,
+            339.6600036621094
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_3.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Cupboard 319",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -375,
+            550
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -415,
+            485
+          ],
+          "Max": [
+            -335,
+            615
+          ],
+          "Scale": [
+            40,
+            65
+          ],
+          "Position": [
+            -375,
+            550
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_3.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 212",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -572.1409912109375,
+            -160.67161560058594
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -622.1409912109375,
+            -200.67161560058594
+          ],
+          "Max": [
+            -522.1409912109375,
+            -120.67161560058594
+          ],
+          "Scale": [
+            50,
+            40
+          ],
+          "Position": [
+            -572.1409912109375,
+            -160.67161560058594
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Vert Cup 210",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            177.97999572753906,
+            -415.5799865722656
+          ]
+        },
+        "Collision": {
+          "Min": [
+            137.97999572753906,
+            -495.5799865722656
+          ],
+          "Max": [
+            217.97999572753906,
+            -335.5799865722656
+          ],
+          "Scale": [
+            40,
+            80
+          ],
+          "Position": [
+            177.97999572753906,
+            -415.5799865722656
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Vertical_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Oven11",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -220,
+            550
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -260,
+            485
+          ],
+          "Max": [
+            -180,
+            615
+          ],
+          "Scale": [
+            40,
+            65
+          ],
+          "Position": [
+            -220,
+            550
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Oven.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Cupboard Long13",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -111.98992919921875,
+            315
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -191.98992919921875,
+            250
+          ],
+          "Max": [
+            -31.98992919921875,
+            380
+          ],
+          "Scale": [
+            80,
+            65
+          ],
+          "Position": [
+            -111.98992919921875,
+            315
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Long.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 117",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            144.03424072265625,
+            -136.64187622070312
+          ]
+        },
+        "Collision": {
+          "Min": [
+            104.03424072265625,
+            -176.64187622070312
+          ],
+          "Max": [
+            184.03424072265625,
+            -96.64187622070312
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            144.03424072265625,
+            -136.64187622070312
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Stove20",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -298.20001220703125,
+            550
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -338.20001220703125,
+            485
+          ],
+          "Max": [
+            -258.20001220703125,
+            615
+          ],
+          "Scale": [
+            40,
+            65
+          ],
+          "Position": [
+            -298.20001220703125,
+            550
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Stove.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Cupboard 122",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            0.7599999904632568,
+            315
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -34.2400016784668,
+            250
+          ],
+          "Max": [
+            35.7599983215332,
+            380
+          ],
+          "Scale": [
+            35,
+            65
+          ],
+          "Position": [
+            0.7599999904632568,
+            315
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Vert Cup 26",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -564.25,
+            154.42999267578125
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -604.25,
+            74.42999267578125
+          ],
+          "Max": [
+            -524.25,
+            234.42999267578125
+          ],
+          "Scale": [
+            40,
+            80
+          ],
+          "Position": [
+            -564.25,
+            154.42999267578125
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Vertical_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Vert Cup 116",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            100.30000305175781,
+            -493.3599853515625
+          ]
+        },
+        "Collision": {
+          "Min": [
+            60.30000305175781,
+            -573.3599853515625
+          ],
+          "Max": [
+            140.3000030517578,
+            -413.3599853515625
+          ],
+          "Scale": [
+            40,
+            80
+          ],
+          "Position": [
+            100.30000305175781,
+            -493.3599853515625
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Vertical_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Cupboard Long24",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -101.3499984741211,
+            550
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -177.35000610351562,
+            485
+          ],
+          "Max": [
+            -25.349998474121094,
+            615
+          ],
+          "Scale": [
+            76,
+            65
+          ],
+          "Position": [
+            -101.3499984741211,
+            550
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Long.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Sofa F1",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -186.401611328125,
+            -308.05975341796875
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -193.901611328125,
+            -310.05975341796875
+          ],
+          "Max": [
+            -178.901611328125,
+            -306.05975341796875
+          ],
+          "Scale": [
+            7.5,
+            2
+          ],
+          "Position": [
+            -186.401611328125,
+            -308.05975341796875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Sofa_Front.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Fridge28",
+        "Transform": {
+          "Scale": [
+            80,
+            165
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            26.25,
+            595
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -19.75,
+            485
+          ],
+          "Max": [
+            72.25,
+            705
+          ],
+          "Scale": [
+            46,
+            110
+          ],
+          "Position": [
+            26.25,
+            595
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Fridge.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Bin17",
+        "Transform": {
+          "Scale": [
+            50,
+            50
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -480.7879943847656,
+            -268.87835693359375
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -500.7879943847656,
+            -318.87835693359375
+          ],
+          "Max": [
+            -460.7879943847656,
+            -218.87835693359375
+          ],
+          "Scale": [
+            20,
+            50
+          ],
+          "Position": [
+            -480.7879943847656,
+            -268.87835693359375
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Interactables_Trashbin.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Cupboard 230",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            108.3499984741211,
+            550
+          ]
+        },
+        "Collision": {
+          "Min": [
+            67.8499984741211,
+            485
+          ],
+          "Max": [
+            148.85000610351562,
+            615
+          ],
+          "Scale": [
+            40.5,
+            65
+          ],
+          "Position": [
+            108.3499984741211,
+            550
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_3.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Coffe Table19",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            309.79876708984375,
+            541.194091796875
+          ]
+        },
+        "Collision": {
+          "Min": [
+            236.29876708984375,
+            491.194091796875
+          ],
+          "Max": [
+            383.29876708984375,
+            591.194091796875
+          ],
+          "Scale": [
+            73.5,
+            50
+          ],
+          "Position": [
+            309.79876708984375,
+            541.194091796875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Coffeetable.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Long Table32",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            693.9411010742188,
+            -376.39630126953125
+          ]
+        },
+        "Collision": {
+          "Min": [
+            618.9411010742188,
+            -431.39630126953125
+          ],
+          "Max": [
+            768.9411010742188,
+            -321.39630126953125
+          ],
+          "Scale": [
+            75,
+            55
+          ],
+          "Position": [
+            693.9411010742188,
+            -376.39630126953125
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Longtable.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Cupboard 243",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            227.5500030517578,
+            315
+          ]
+        },
+        "Collision": {
+          "Min": [
+            187.5500030517578,
+            300
+          ],
+          "Max": [
+            267.54998779296875,
+            330
+          ],
+          "Scale": [
+            40,
+            15
+          ],
+          "Position": [
+            227.5500030517578,
+            315
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_3.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Cupboard 10",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            150.99000549316406,
+            315.25
+          ]
+        },
+        "Collision": {
+          "Min": [
+            110.99000549316406,
+            275.25
+          ],
+          "Max": [
+            190.99000549316406,
+            355.25
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            150.99000549316406,
+            315.25
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Chair 133",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            390.1499938964844,
+            550.8699951171875
+          ]
+        },
+        "Collision": {
+          "Min": [
+            365.1499938964844,
+            475.8699951171875
+          ],
+          "Max": [
+            415.1499938964844,
+            625.8699951171875
+          ],
+          "Scale": [
+            25,
+            75
+          ],
+          "Position": [
+            390.1499938964844,
+            550.8699951171875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Chair_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Cupboard 137",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -819.9500122070312,
+            340
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -823.9500122070312,
+            338.5
+          ],
+          "Max": [
+            -815.9500122070312,
+            341.5
+          ],
+          "Scale": [
+            4,
+            1.5
+          ],
+          "Position": [
+            -819.9500122070312,
+            340
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Sink38",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            75.3499984741211,
+            315
+          ]
+        },
+        "Collision": {
+          "Min": [
+            71.3499984741211,
+            313.5
+          ],
+          "Max": [
+            79.3499984741211,
+            316.5
+          ],
+          "Scale": [
+            4,
+            1.5
+          ],
+          "Position": [
+            75.3499984741211,
+            315
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Sink.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "R Table44",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            201.36000061035156,
+            192.35000610351562
+          ]
+        },
+        "Collision": {
+          "Min": [
+            166.36000061035156,
+            122.35000610351562
+          ],
+          "Max": [
+            236.36000061035156,
+            262.3500061035156
+          ],
+          "Scale": [
+            35,
+            70
+          ],
+          "Position": [
+            201.36000061035156,
+            192.35000610351562
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Roundtable.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Cupboard L213",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -229.5711212158203,
+            -193.50732421875
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -309.57110595703125,
+            -259.00732421875
+          ],
+          "Max": [
+            -149.5711212158203,
+            -128.00732421875
+          ],
+          "Scale": [
+            80,
+            65.5
+          ],
+          "Position": [
+            -229.5711212158203,
+            -193.50732421875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Long_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "R Table45",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            57.54999923706055,
+            -194.27000427246094
+          ]
+        },
+        "Collision": {
+          "Min": [
+            17.049999237060547,
+            -266.27001953125
+          ],
+          "Max": [
+            98.05000305175781,
+            -122.27000427246094
+          ],
+          "Scale": [
+            40.5,
+            72
+          ],
+          "Position": [
+            57.54999923706055,
+            -194.27000427246094
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Roundtable.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Chair 146",
+        "Transform": {
+          "Scale": [
+            -80,
+            80
+          ],
+          "Rotation Angle": -0.0001042740186676383,
+          "Rotation Speed": 0,
+          "Translate": [
+            133.1999969482422,
+            189.3699951171875
+          ]
+        },
+        "Collision": {
+          "Min": [
+            113.19999694824219,
+            114.3699951171875
+          ],
+          "Max": [
+            153.1999969482422,
+            264.3699951171875
+          ],
+          "Scale": [
+            20,
+            75
+          ],
+          "Position": [
+            133.1999969482422,
+            189.3699951171875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Chair_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "R Table6",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -572.66455078125,
+            339.75030517578125
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -607.66455078125,
+            264.75030517578125
+          ],
+          "Max": [
+            -537.66455078125,
+            414.75030517578125
+          ],
+          "Scale": [
+            35,
+            75
+          ],
+          "Position": [
+            -572.66455078125,
+            339.75030517578125
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Roundtable.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "RoundChair1",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            109.51000213623047,
+            -384.8399963378906
+          ]
+        },
+        "Collision": {
+          "Min": [
+            79.51000213623047,
+            -454.8399963378906
+          ],
+          "Max": [
+            139.510009765625,
+            -314.8399963378906
+          ],
+          "Scale": [
+            30,
+            70
+          ],
+          "Position": [
+            109.51000213623047,
+            -384.8399963378906
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Roundchair.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "V Cupboard12",
+        "Transform": {
+          "Scale": [
+            80,
+            190
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            858.0700073242188,
+            334.6300048828125
+          ]
+        },
+        "Collision": {
+          "Min": [
+            778.0700073242188,
+            284.6300048828125
+          ],
+          "Max": [
+            938.0700073242188,
+            384.6300048828125
+          ],
+          "Scale": [
+            80,
+            50
+          ],
+          "Position": [
+            858.0700073242188,
+            334.6300048828125
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_VerticalCupboard.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "V Cupboard0",
+        "Transform": {
+          "Scale": [
+            80,
+            190
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            690.219970703125,
+            334.3900146484375
+          ]
+        },
+        "Collision": {
+          "Min": [
+            610.219970703125,
+            284.3900146484375
+          ],
+          "Max": [
+            770.219970703125,
+            384.3900146484375
+          ],
+          "Scale": [
+            80,
+            50
+          ],
+          "Position": [
+            690.219970703125,
+            334.3900146484375
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_VerticalCupboard.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "LoungeChair0",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            108.3499984741211,
+            -350.8699951171875
+          ]
+        },
+        "Collision": {
+          "Min": [
+            83.3499984741211,
+            -405.8699951171875
+          ],
+          "Max": [
+            133.35000610351562,
+            -295.8699951171875
+          ],
+          "Scale": [
+            25,
+            55
+          ],
+          "Position": [
+            108.3499984741211,
+            -350.8699951171875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Loungechair.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Vert Cup 15",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -564.760009765625,
+            232.19000244140625
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -604.760009765625,
+            152.19000244140625
+          ],
+          "Max": [
+            -524.760009765625,
+            312.19000244140625
+          ],
+          "Scale": [
+            40,
+            80
+          ],
+          "Position": [
+            -564.760009765625,
+            232.19000244140625
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Vertical_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Vert Cup 15",
+        "Transform": {
+          "Scale": [
+            100,
+            100
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -12.435935974121094,
+            -474.6269226074219
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -62.435935974121094,
+            -524.626953125
+          ],
+          "Max": [
+            37.564064025878906,
+            -424.6269226074219
+          ],
+          "Scale": [
+            50,
+            50
+          ],
+          "Position": [
+            -12.435935974121094,
+            -474.6269226074219
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Background",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Vertical_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Cupboard Long3",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -702.6099853515625,
+            340.9599914550781
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -782.6099853515625,
+            260.9599914550781
+          ],
+          "Max": [
+            -622.6099853515625,
+            420.9599914550781
+          ],
+          "Scale": [
+            80,
+            80
+          ],
+          "Position": [
+            -702.6099853515625,
+            340.9599914550781
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Long.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 115",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -527.1839599609375,
+            -187.4626007080078
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -567.1839599609375,
+            -227.4626007080078
+          ],
+          "Max": [
+            -487.1839599609375,
+            -147.4626007080078
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            -527.1839599609375,
+            -187.4626007080078
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 238",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            879.6517944335938,
+            27.53670883178711
+          ]
+        },
+        "Collision": {
+          "Min": [
+            839.6517944335938,
+            -12.46329116821289
+          ],
+          "Max": [
+            919.6517944335938,
+            67.53671264648438
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            879.6517944335938,
+            27.53670883178711
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Vert Cup 17",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -268.80999755859375,
+            -495.6099853515625
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -308.80999755859375,
+            -575.6099853515625
+          ],
+          "Max": [
+            -228.80999755859375,
+            -415.6099853515625
+          ],
+          "Scale": [
+            40,
+            80
+          ],
+          "Position": [
+            -268.80999755859375,
+            -495.6099853515625
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Vertical_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Vert Cup 17",
+        "Transform": {
+          "Scale": [
+            100,
+            100
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            10.798650741577148,
+            -441.1940612792969
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -39.20134735107422,
+            -491.1940612792969
+          ],
+          "Max": [
+            60.79865264892578,
+            -391.1940612792969
+          ],
+          "Scale": [
+            50,
+            50
+          ],
+          "Position": [
+            10.798650741577148,
+            -441.1940612792969
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Background",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Vertical_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Vert Cup 38",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -564.4199829101562,
+            101.37000274658203
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -604.4199829101562,
+            37.87000274658203
+          ],
+          "Max": [
+            -524.4199829101562,
+            164.8699951171875
+          ],
+          "Scale": [
+            40,
+            63.5
+          ],
+          "Position": [
+            -564.4199829101562,
+            101.37000274658203
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Vertical_3.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 29",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -864.72998046875,
+            -141.10000610351562
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -914.72998046875,
+            -176.10000610351562
+          ],
+          "Max": [
+            -814.72998046875,
+            -106.10000610351562
+          ],
+          "Scale": [
+            50,
+            35
+          ],
+          "Position": [
+            -864.72998046875,
+            -141.10000610351562
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Vert Cup 11",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            177.47999572753906,
+            -184.3699951171875
+          ]
+        },
+        "Collision": {
+          "Min": [
+            137.47999572753906,
+            -264.3699951171875
+          ],
+          "Max": [
+            217.47999572753906,
+            -104.3699951171875
+          ],
+          "Scale": [
+            40,
+            80
+          ],
+          "Position": [
+            177.47999572753906,
+            -184.3699951171875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Vertical_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 110",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -887.25,
+            -174.08999633789062
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -933.25,
+            -212.58999633789062
+          ],
+          "Max": [
+            -841.25,
+            -135.58999633789062
+          ],
+          "Scale": [
+            46,
+            38.5
+          ],
+          "Position": [
+            -887.25,
+            -174.08999633789062
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 110",
+        "Transform": {
+          "Scale": [
+            100,
+            100
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            499.5375671386719,
+            -377.9850769042969
+          ]
+        },
+        "Collision": {
+          "Min": [
+            449.5375671386719,
+            -427.9850769042969
+          ],
+          "Max": [
+            549.53759765625,
+            -327.9850769042969
+          ],
+          "Scale": [
+            50,
+            50
+          ],
+          "Position": [
+            499.5375671386719,
+            -377.9850769042969
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Background",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "CookingPot48",
+        "Transform": {
+          "Scale": [
+            40,
+            40
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -141.93231201171875,
+            552.8358764648438
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_CookingPot.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 111",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -645.31103515625,
+            -145.223876953125
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -685.31103515625,
+            -185.223876953125
+          ],
+          "Max": [
+            -605.31103515625,
+            -105.223876953125
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            -645.31103515625,
+            -145.223876953125
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 213",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -477.0029296875,
+            -149.85076904296875
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -527.0029296875,
+            -189.85076904296875
+          ],
+          "Max": [
+            -427.0029296875,
+            -109.85076904296875
+          ],
+          "Scale": [
+            50,
+            40
+          ],
+          "Position": [
+            -477.0029296875,
+            -149.85076904296875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 114",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -621.5223388671875,
+            -186.86572265625
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -661.5223388671875,
+            -226.86572265625
+          ],
+          "Max": [
+            -581.5223388671875,
+            -146.86572265625
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            -621.5223388671875,
+            -186.86572265625
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 216",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            54.61822509765625,
+            -134.40301513671875
+          ]
+        },
+        "Collision": {
+          "Min": [
+            4.61822509765625,
+            -174.40301513671875
+          ],
+          "Max": [
+            104.61822509765625,
+            -94.40301513671875
+          ],
+          "Scale": [
+            50,
+            40
+          ],
+          "Position": [
+            54.61822509765625,
+            -134.40301513671875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 118",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            106.02424621582031,
+            -164.32830810546875
+          ]
+        },
+        "Collision": {
+          "Min": [
+            66.02424621582031,
+            -204.32830810546875
+          ],
+          "Max": [
+            146.0242462158203,
+            -124.32830810546875
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            106.02424621582031,
+            -164.32830810546875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Vert Cup 12",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            177.57000732421875,
+            -260.989990234375
+          ]
+        },
+        "Collision": {
+          "Min": [
+            137.57000732421875,
+            -340.989990234375
+          ],
+          "Max": [
+            217.57000732421875,
+            -180.989990234375
+          ],
+          "Scale": [
+            40,
+            80
+          ],
+          "Position": [
+            177.57000732421875,
+            -260.989990234375
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Vertical_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 219",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            178.82763671875,
+            -155.89553833007812
+          ]
+        },
+        "Collision": {
+          "Min": [
+            128.82763671875,
+            -195.89553833007812
+          ],
+          "Max": [
+            228.82763671875,
+            -115.89553833007812
+          ],
+          "Scale": [
+            50,
+            40
+          ],
+          "Position": [
+            178.82763671875,
+            -155.89553833007812
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Vert Cup 14",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            177.5800018310547,
+            -337.9599914550781
+          ]
+        },
+        "Collision": {
+          "Min": [
+            137.5800018310547,
+            -417.9599914550781
+          ],
+          "Max": [
+            217.5800018310547,
+            -257.9599914550781
+          ],
+          "Scale": [
+            40,
+            80
+          ],
+          "Position": [
+            177.5800018310547,
+            -337.9599914550781
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Vertical_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Vert Cup 111",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            177.42999267578125,
+            -493.8699951171875
+          ]
+        },
+        "Collision": {
+          "Min": [
+            137.42999267578125,
+            -573.8699951171875
+          ],
+          "Max": [
+            217.42999267578125,
+            -413.8699951171875
+          ],
+          "Scale": [
+            40,
+            80
+          ],
+          "Position": [
+            177.42999267578125,
+            -493.8699951171875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Vertical_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "TV Table12",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -185.82681274414062,
+            -375.74627685546875
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -235.82681274414062,
+            -425.74627685546875
+          ],
+          "Max": [
+            -135.82681274414062,
+            -325.74627685546875
+          ],
+          "Scale": [
+            50,
+            50
+          ],
+          "Position": [
+            -185.82681274414062,
+            -375.74627685546875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_TVTable.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Cupboard L214",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -72.98999786376953,
+            -193.52999877929688
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -152.989990234375,
+            -259.5299987792969
+          ],
+          "Max": [
+            7.010002136230469,
+            -127.52999877929688
+          ],
+          "Scale": [
+            80,
+            66
+          ],
+          "Position": [
+            -72.98999786376953,
+            -193.52999877929688
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Long_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Vert Cup 115",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -191.9499969482422,
+            -495.7200012207031
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -231.9499969482422,
+            -575.719970703125
+          ],
+          "Max": [
+            -151.9499969482422,
+            -415.7200012207031
+          ],
+          "Scale": [
+            40,
+            80
+          ],
+          "Position": [
+            -191.9499969482422,
+            -495.7200012207031
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Cupboard_Vertical_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Bin18",
+        "Transform": {
+          "Scale": [
+            50,
+            50
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            369.0397644042969,
+            171.93841552734375
+          ]
+        },
+        "Collision": {
+          "Min": [
+            349.0397644042969,
+            121.93841552734375
+          ],
+          "Max": [
+            389.0397644042969,
+            221.93841552734375
+          ],
+          "Scale": [
+            20,
+            50
+          ],
+          "Position": [
+            369.0397644042969,
+            171.93841552734375
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Interactables_Trashbin.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Sofa B20",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            697.47998046875,
+            -473.6600036621094
+          ]
+        },
+        "Collision": {
+          "Min": [
+            647.47998046875,
+            -523.6600341796875
+          ],
+          "Max": [
+            747.47998046875,
+            -423.6600036621094
+          ],
+          "Scale": [
+            50,
+            50
+          ],
+          "Position": [
+            697.47998046875,
+            -473.6600036621094
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Sofa_Back.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 221",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            435.383056640625,
+            -234.70143127441406
+          ]
+        },
+        "Collision": {
+          "Min": [
+            395.383056640625,
+            -274.701416015625
+          ],
+          "Max": [
+            475.383056640625,
+            -194.70143127441406
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            435.383056640625,
+            -234.70143127441406
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 122",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            396.0880126953125,
+            -275.4477844238281
+          ]
+        },
+        "Collision": {
+          "Min": [
+            356.0880126953125,
+            -315.4477844238281
+          ],
+          "Max": [
+            436.0880126953125,
+            -235.44778442382812
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            396.0880126953125,
+            -275.4477844238281
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 123",
+        "Transform": {
+          "Scale": [
+            100,
+            100
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            461.2799072265625,
+            -282.83587646484375
+          ]
+        },
+        "Collision": {
+          "Min": [
+            411.2799072265625,
+            -332.83587646484375
+          ],
+          "Max": [
+            511.2799072265625,
+            -232.83587646484375
+          ],
+          "Scale": [
+            50,
+            50
+          ],
+          "Position": [
+            461.2799072265625,
+            -282.83587646484375
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "TV Table31",
+        "Transform": {
+          "Scale": [
+            100,
+            100
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            693.75,
+            -259.0299987792969
+          ]
+        },
+        "Collision": {
+          "Min": [
+            602.25,
+            -339.5299987792969
+          ],
+          "Max": [
+            785.25,
+            -178.52999877929688
+          ],
+          "Scale": [
+            91.5,
+            80.5
+          ],
+          "Position": [
+            693.75,
+            -259.0299987792969
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_TVTable.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "TV34",
+        "Transform": {
+          "Scale": [
+            100,
+            100
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            690.1390991210938,
+            -197.31314086914062
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_TV.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "TVConsole35",
+        "Transform": {
+          "Scale": [
+            70,
+            70
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            763.9920654296875,
+            -228.5074462890625
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_TVConsole.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 236",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            575.8903198242188,
+            33.4325065612793
+          ]
+        },
+        "Collision": {
+          "Min": [
+            535.8903198242188,
+            -6.567493438720703
+          ],
+          "Max": [
+            615.8903198242188,
+            73.43251037597656
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            575.8903198242188,
+            33.4325065612793
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 137",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            621.3848876953125,
+            4.626850128173828
+          ]
+        },
+        "Collision": {
+          "Min": [
+            581.3848876953125,
+            -35.37314987182617
+          ],
+          "Max": [
+            661.3848876953125,
+            44.62685012817383
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            621.3848876953125,
+            4.626850128173828
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 239",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            807.1116943359375,
+            15.223848342895508
+          ]
+        },
+        "Collision": {
+          "Min": [
+            767.1116943359375,
+            -24.776151657104492
+          ],
+          "Max": [
+            847.1116943359375,
+            55.223846435546875
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            807.1116943359375,
+            15.223848342895508
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 140",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            853.1553955078125,
+            -13.731958389282227
+          ]
+        },
+        "Collision": {
+          "Min": [
+            813.1553955078125,
+            -53.731956481933594
+          ],
+          "Max": [
+            893.1553955078125,
+            26.268041610717773
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            853.1553955078125,
+            -13.731958389282227
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "PP Pile42",
+        "Transform": {
+          "Scale": [
+            100,
+            100
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -723.047119140625,
+            148.2089385986328
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -753.047119140625,
+            118.20893859863281
+          ],
+          "Max": [
+            -693.047119140625,
+            178.2089385986328
+          ],
+          "Scale": [
+            30,
+            30
+          ],
+          "Position": [
+            -723.047119140625,
+            148.2089385986328
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Gameplay",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Interactables_PaperPile.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Glass Pieces43",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -334.84564208984375,
+            151.71641540527344
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -384.84564208984375,
+            81.71641540527344
+          ],
+          "Max": [
+            -284.84564208984375,
+            221.71641540527344
+          ],
+          "Scale": [
+            50,
+            70
+          ],
+          "Position": [
+            -334.84564208984375,
+            151.71641540527344
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Gameplay",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Interactables_GlassPieces.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Broom44",
+        "Transform": {
+          "Scale": [
+            45,
+            45
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            168.21514892578125,
+            525.6703491210938
+          ]
+        },
+        "Collision": {
+          "Min": [
+            118.21514892578125,
+            475.67034912109375
+          ],
+          "Max": [
+            218.21514892578125,
+            575.6703491210938
+          ],
+          "Scale": [
+            50,
+            50
+          ],
+          "Position": [
+            168.21514892578125,
+            525.6703491210938
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Gameplay",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Interactables_Broom.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "PhotoFrame 145",
+        "Transform": {
+          "Scale": [
+            45,
+            45
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            213.78579711914062,
+            168.05972290039062
+          ]
+        },
+        "Collision": {
+          "Min": [
+            193.78579711914062,
+            148.05972290039062
+          ],
+          "Max": [
+            233.78579711914062,
+            188.05972290039062
+          ],
+          "Scale": [
+            20,
+            20
+          ],
+          "Position": [
+            213.78579711914062,
+            168.05972290039062
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Interactables_PhotoFrame_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "CuttingBoard46",
+        "Transform": {
+          "Scale": [
+            40,
+            40
+          ],
+          "Rotation Angle": -90,
+          "Rotation Speed": 0,
+          "Translate": [
+            -372,
+            547.6300048828125
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_CuttingBoard.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BakingTray47",
+        "Transform": {
+          "Scale": [
+            40,
+            40
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -219.22259521484375,
+            549.2537231445312
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BakingTray.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "SaucePan49",
+        "Transform": {
+          "Scale": [
+            40,
+            40
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -305.0618896484375,
+            562.3134155273438
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_Saucepan.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "TinCans50",
+        "Transform": {
+          "Scale": [
+            40,
+            40
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -93.38836669921875,
+            553.7313842773438
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_Tincans.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Ketchup51",
+        "Transform": {
+          "Scale": [
+            35,
+            35
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -61.342437744140625,
+            559.2537841796875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_Ketchup.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "PillsBtl54",
+        "Transform": {
+          "Scale": [
+            50,
+            50
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -206.87408447265625,
+            -379.1790466308594
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_PillBottles.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "SoapBtl55",
+        "Transform": {
+          "Scale": [
+            45,
+            45
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            21.5086669921875,
+            331.49127197265625
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_SoapBottle.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "H Rag156",
+        "Transform": {
+          "Scale": [
+            30,
+            30
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            151.81851196289062,
+            314.5518798828125
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_HorizontalRags_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Mug58",
+        "Transform": {
+          "Scale": [
+            45,
+            45
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -162.29222106933594,
+            -380.671630859375
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_CeramicMug.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "GlassCup59",
+        "Transform": {
+          "Scale": [
+            40,
+            40
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            204.49920654296875,
+            324.4773864746094
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_GlassCup.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Blood0",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            291.3377685546875,
+            -195.74684143066406
+          ]
+        },
+        "Collision": {
+          "Min": [
+            241.3377685546875,
+            -271.746826171875
+          ],
+          "Max": [
+            341.3377685546875,
+            -119.74684143066406
+          ],
+          "Scale": [
+            50,
+            76
+          ],
+          "Position": [
+            291.3377685546875,
+            -195.74684143066406
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Gameplay",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Interactables_Blood.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Candy Horn1",
+        "Transform": {
+          "Scale": [
+            30,
+            30
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            613.54833984375,
+            -554.9253540039062
+          ]
+        },
+        "Collision": {
+          "Min": [
+            603.54833984375,
+            -564.9253540039062
+          ],
+          "Max": [
+            623.54833984375,
+            -544.9253540039062
+          ],
+          "Scale": [
+            10,
+            10
+          ],
+          "Position": [
+            613.54833984375,
+            -554.9253540039062
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Gameplay",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Interactables_CandyHorn.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "KnifeBlood3",
+        "Transform": {
+          "Scale": [
+            50,
+            50
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            748.3565673828125,
+            -399.1044921875
+          ]
+        },
+        "Collision": {
+          "Min": [
+            728.3565673828125,
+            -419.1044921875
+          ],
+          "Max": [
+            768.3565673828125,
+            -379.1044921875
+          ],
+          "Scale": [
+            20,
+            20
+          ],
+          "Position": [
+            748.3565673828125,
+            -399.1044921875
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Interactables_Knife_Blood.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "LaLa4",
+        "Transform": {
+          "Scale": [
+            -70,
+            70
+          ],
+          "Rotation Angle": -0.0001042740695993416,
+          "Rotation Speed": 0,
+          "Translate": [
+            -434.0199890136719,
+            -16.43000030517578
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -464.0199890136719,
+            -76.43000030517578
+          ],
+          "Max": [
+            -404.0199890136719,
+            43.56999969482422
+          ],
+          "Scale": [
+            30,
+            60
+          ],
+          "Position": [
+            -434.0199890136719,
+            -16.43000030517578
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Character_NPC_3_Sprite.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "CandyPile5",
+        "Transform": {
+          "Scale": [
+            100,
+            100
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            803.56103515625,
+            130.67050170898438
+          ]
+        },
+        "Collision": {
+          "Min": [
+            753.56103515625,
+            80.67050170898438
+          ],
+          "Max": [
+            853.56103515625,
+            180.67050170898438
+          ],
+          "Scale": [
+            50,
+            50
+          ],
+          "Position": [
+            803.56103515625,
+            130.67050170898438
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Gameplay",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Interactables_CandyPile.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 26",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            433.37091064453125,
+            -339.0298767089844
+          ]
+        },
+        "Collision": {
+          "Min": [
+            393.37091064453125,
+            -379.0298767089844
+          ],
+          "Max": [
+            473.37091064453125,
+            -299.0298767089844
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            433.37091064453125,
+            -339.0298767089844
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 17",
+        "Transform": {
+          "Scale": [
+            100,
+            100
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            400.3125,
+            -371.79107666015625
+          ]
+        },
+        "Collision": {
+          "Min": [
+            350.3125,
+            -421.79107666015625
+          ],
+          "Max": [
+            450.3125,
+            -321.79107666015625
+          ],
+          "Scale": [
+            50,
+            50
+          ],
+          "Position": [
+            400.3125,
+            -371.79107666015625
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 18",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            469.6788330078125,
+            -390.298583984375
+          ]
+        },
+        "Collision": {
+          "Min": [
+            429.6788330078125,
+            -430.298583984375
+          ],
+          "Max": [
+            509.6788330078125,
+            -350.298583984375
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            469.6788330078125,
+            -390.298583984375
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 211",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            434.158203125,
+            -435.8208923339844
+          ]
+        },
+        "Collision": {
+          "Min": [
+            394.158203125,
+            -475.8208923339844
+          ],
+          "Max": [
+            474.158203125,
+            -395.8208923339844
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            434.158203125,
+            -435.8208923339844
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 112",
+        "Transform": {
+          "Scale": [
+            80,
+            80
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            402.81219482421875,
+            -469.47760009765625
+          ]
+        },
+        "Collision": {
+          "Min": [
+            362.81219482421875,
+            -509.47760009765625
+          ],
+          "Max": [
+            442.81219482421875,
+            -429.47760009765625
+          ],
+          "Scale": [
+            40,
+            40
+          ],
+          "Position": [
+            402.81219482421875,
+            -469.47760009765625
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "BushWall 113",
+        "Transform": {
+          "Scale": [
+            100,
+            100
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            459.3551025390625,
+            -486.7910461425781
+          ]
+        },
+        "Collision": {
+          "Min": [
+            409.3551025390625,
+            -536.791015625
+          ],
+          "Max": [
+            509.3551025390625,
+            -436.7910461425781
+          ],
+          "Scale": [
+            50,
+            50
+          ],
+          "Position": [
+            459.3551025390625,
+            -486.7910461425781
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_BushWall_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Bowl15",
+        "Transform": {
+          "Scale": [
+            50,
+            50
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -748.756103515625,
+            358.2838439941406
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_Bowl.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "H Rag217",
+        "Transform": {
+          "Scale": [
+            40,
+            40
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -818.173583984375,
+            340.5216064453125
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_HorizontalRags_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "PaintBucket1",
+        "Transform": {
+          "Scale": [
+            50,
+            50
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            57.517822265625,
+            -212.9104461669922
+          ]
+        },
+        "Collision": {
+          "Min": [
+            37.517822265625,
+            -232.9104461669922
+          ],
+          "Max": [
+            77.517822265625,
+            -192.9104461669922
+          ],
+          "Scale": [
+            20,
+            20
+          ],
+          "Position": [
+            57.517822265625,
+            -212.9104461669922
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Interactables_PaintBucket.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "PaintInside0",
+        "Transform": {
+          "Scale": [
+            50,
+            50
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            57.40582275390625,
+            -212.3128662109375
+          ]
+        },
+        "Collision": {
+          "Min": [
+            7.40582275390625,
+            -262.3128662109375
+          ],
+          "Max": [
+            107.40582275390625,
+            -162.3128662109375
+          ],
+          "Scale": [
+            50,
+            50
+          ],
+          "Position": [
+            57.40582275390625,
+            -212.3128662109375
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Interactables_PaintBucket_Inside.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "WineBtl11",
+        "Transform": {
+          "Scale": [
+            40,
+            40
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            229.75796508789062,
+            329.2528991699219
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_WineBottle_1.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "WineBtl22",
+        "Transform": {
+          "Scale": [
+            40,
+            40
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            244.60691833496094,
+            318.58209228515625
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Decor_WineBottle_2.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Mop0",
+        "Transform": {
+          "Scale": [
+            -40,
+            40
+          ],
+          "Rotation Angle": 0.00010427392408018932,
+          "Rotation Speed": 0,
+          "Translate": [
+            582.3200073242188,
+            317.94000244140625
+          ]
+        },
+        "Collision": {
+          "Min": [
+            532.3200073242188,
+            267.94000244140625
+          ],
+          "Max": [
+            632.3200073242188,
+            367.94000244140625
+          ],
+          "Scale": [
+            50,
+            50
+          ],
+          "Position": [
+            582.3200073242188,
+            317.94000244140625
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Environment_Prop_Interactables_Mop.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Player1",
+        "Transform": {
+          "Scale": [
+            70,
+            70
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -684.9144287109375,
+            -530.1492309570312
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -714.9144287109375,
+            -590.1492309570312
+          ],
+          "Max": [
+            -654.9144287109375,
+            -470.14923095703125
+          ],
+          "Scale": [
+            30,
+            60
+          ],
+          "Position": [
+            -684.9144287109375,
+            -530.1492309570312
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Foreground",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Character_MainCharacter_Sprite.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Muse3",
+        "Transform": {
+          "Scale": [
+            70,
+            70
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -876.1279907226562,
+            -32.61194610595703
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -906.1279907226562,
+            -92.61194610595703
+          ],
+          "Max": [
+            -846.1279907226562,
+            27.38805389404297
+          ],
+          "Scale": [
+            30,
+            60
+          ],
+          "Position": [
+            -876.1279907226562,
+            -32.61194610595703
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Gameplay",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Character_NPC_2_Sprite.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "Name": "Distaction0",
+        "Transform": {
+          "Scale": [
+            50,
+            50
+          ],
+          "Rotation Angle": 0,
+          "Rotation Speed": 0,
+          "Translate": [
+            -186.73916625976562,
+            -629.0298461914062
+          ]
+        },
+        "Collision": {
+          "Min": [
+            -205.23916625976562,
+            -679.0298461914062
+          ],
+          "Max": [
+            -168.23916625976562,
+            -579.0298461914062
+          ],
+          "Scale": [
+            18.5,
+            50
+          ],
+          "Position": [
+            -186.73916625976562,
+            -629.0298461914062
+          ]
+        },
+        "Texture": {
+          "Render Layer": "Gameplay",
+          "Render Priority": "0",
+          "States": {
+            "Null": [
+              "./Assets/Textures\\Prop_Distraction_Jack-In-The-Box.png",
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      }
+    ]
+  }

@@ -1,0 +1,23 @@
+{
+    "Game": [
+        {
+            "System": "Graphics",
+            "Window": {
+                "Title": "Game Name",
+                "Fullscreen": "OFF",
+                "Width": 1440,
+                "Height": 810
+            },
+            "Performance": {
+                "FPS": 60
+            }
+        },
+        {
+            "System": "Audio",
+            "Volumes": {
+                "BGM": 100,
+                "SFX": 100
+            }
+        }
+    ]
+}

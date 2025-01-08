@@ -1,0 +1,123 @@
+{
+  "Game Objects": [
+    {
+      "Name": "Sus_Meter",
+      "Transform": {
+        "Scale": [ 100, 100 ],
+        "Rotation Angle": 0,
+        "Rotation Speed": 0,
+        "Translate": [ -400, 400 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Texture Path": "./Assets/Textures/UI_SusMeter.png",
+        "Render Layer": "UI_Elements",
+        "Render Priority": "10"
+      }
+    },
+    {
+      "Name": "Main Character",
+      "Color": {
+        "RGB": [ 0.5, 0, 0 ]
+      },
+      "Transform": {
+        "Scale": [ 100, 100 ],
+        "Rotation Angle": 0,
+        "Rotation Speed": 0,
+        "Translate": [ -100.0, -100.0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Texture Path": "./Assets/Textures/Character_MainCharacter_Sprite.png",
+        "Render Layer": "Gameplay",
+        "Render Priority": "8"
+      },
+      "Font": {
+        "Font Path": "./Assets/Fonts/arial.ttf"
+      }
+    },
+    {
+      "Name": "Dark Overlay",
+      "Color": {
+        "RGB": [ 0.5, 0, 0 ]
+      },
+      "Transform": {
+        "Scale": [ 1000, 300 ],
+        "Rotation Angle": 0,
+        "Rotation Speed": 0,
+        "Translate": [ -400.0, 0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Texture Path": "./Assets/Textures/UI_Dialogue_DarkOverlay.png",
+        "Render Layer": "Overlay",
+        "Render Priority": "8"
+      },
+      "Font": {
+        "Font Path": "./Assets/Fonts/arial.ttf"
+      }
+    },
+    {
+      "Name": "Moose",
+      "Transform": {
+        "Scale": [ 100, 100 ],
+        "Rotation Angle": 0,
+        "Rotation Speed": 0,
+        "Translate": [ -60.0, -100.0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Texture Path": "./Assets/Textures/Character_NPC_1_Sprite.png",
+        "Render Layer": "Gameplay",
+        "Render Priority": "7"
+      }
+    },
+    {
+      "Name": "Background",
+      "Transform": {
+        "Scale": [ 1000, 1000 ],
+        "Rotation Angle": 0,
+        "Rotation Speed": 0,
+        "Translate": [ 0, 0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Texture Path": "./Assets/Textures/Environment_Background_Concept.png",
+        "Render Layer": "Background",
+        "Render Priority": "2"
+      }
+    },
+    {
+      "Name": "Chair_1",
+      "Transform": {
+        "Scale": [ 100, 100 ],
+        "Rotation Angle": 0,
+        "Rotation Speed": 0,
+        "Translate": [ 100, 0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Texture Path": "./Assets/Textures/Environment_Prop_Chair_2.png",
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      }
+    },
+    {
+      "Name": "Table_1",
+      "Transform": {
+        "Scale": [ 100, 100 ],
+        "Rotation Angle": 0,
+        "Rotation Speed": 0,
+        "Translate": [ 0, 0 ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Texture Path": "./Assets/Textures/Environment_Prop_Longtable.png",
+        "Render Layer": "Gameplay",
+        "Render Priority": "4"
+      }
+    }
+  ],
+  "Current Scene": "./Assets/Scenes/TestRenderLayers.json",
+  "Next Scene": "./Assets/Scenes/Level_2.json"
+}

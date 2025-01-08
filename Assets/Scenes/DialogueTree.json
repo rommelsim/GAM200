@@ -1,0 +1,298 @@
+{
+  "Game Objects": [
+    {
+      "Name": "Holding Picture Q1",
+      "Transform": {
+        "Scale": [
+          50.0,
+          50.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -600.0,
+          200.0
+        ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "UI Elements",
+        "Render Priority": "100",
+        "Render Off": true
+      },
+      "Font": {
+        "Font Path": "./Assets/Fonts/GoudyBookLetter1911.ttf"
+      },
+      "Dialogue": {
+        "Dialogue Type": "Prompt",
+        "Dialogue Text": "You found something, Nick?"
+      }
+    },
+    {
+      "Name": "Officer Moose Option",
+      "Transform": {
+        "Scale": [
+          40.0,
+          40.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -950,
+		      -215
+        ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "UI Elements",
+        "Render Priority": "100",
+        "Render Off": true
+      },
+      "Font": {
+        "Font Path": "./Assets/Fonts/GoudyBookLetter1911.ttf"
+      },
+      "Dialogue": {
+        "Dialogue Type": "Option",
+        "Dialogue Text": "Yes, paper! Hope it gives us some clues...",
+        "Suspicious Flag": false
+      }
+    },
+    {
+      "Name": "Secure Bag Option",
+      "Transform": {
+        "Scale": [
+          40.0,
+          40.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -250,
+          -215
+        ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "UI Elements",
+        "Render Priority": "100",
+        "Render Off": true
+      },
+      "Font": {
+        "Font Path": "./Assets/Fonts/GoudyBookLetter1911.ttf"
+      },
+      "Dialogue": {
+        "Dialogue Type": "Option",
+        "Dialogue Text": "No.. It's just a random piece of paper.",
+        "Suspicious Flag": true,
+        "Suspicious Level": 1
+      }
+    },
+    {
+      "Name": "Holding Picture Q1's Boarder",
+      "Transform": {
+        "Scale": [
+          300.0,
+          300.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+           -450.0,
+          200.0
+        ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "UI Elements",
+        "Render Priority": "0",
+        "Texture Path": "./Assets/Textures/UI_Dialogue_TextBox.png",
+        "Render Off": true
+      },
+      "Dialogue": {
+        "Dialogue Type": "Boarder",
+        "Suspicious Flag": false,
+        "Suspicious Level": 0
+      }
+    },
+    {
+      "Name": "Officer Moose Option's Boarder",
+      "Transform": {
+        "Scale": [
+          200.0,
+          200.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -800,
+		      -200
+        ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "UI Elements",
+        "Render Priority": "0",
+        "Texture Path": "./Assets/Textures/UI_Dialogue_SelectionBox_NotSelected.png",
+        "Render Off": true
+      },
+      "Collision": {
+        "Min": [
+          700, 
+          -225
+        ],
+        "Max": [
+          -700, 
+          -175
+        ],
+        "Scale": [
+          200.0,
+          50.0
+        ],
+        "Position": [
+          -800,
+		      -200
+        ]
+      },
+      "Dialogue": {
+        "Dialogue Type": "Boarder",
+        "Suspicious Flag": false,
+        "Suspicious Level": 0
+      },
+      "Button_Behaviour": {}
+    },
+    {
+      "Name": "Secure Bag Option's Boarder",
+      "Transform": {
+        "Scale": [
+          200.0,
+          200.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -100,
+		      -200
+        ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "UI Elements",
+        "Render Priority": "0",
+        "Texture Path": "./Assets/Textures/UI_Dialogue_SelectionBox_NotSelected.png",
+        "Render Off": true
+      },
+      "Collision": {
+        "Min": [
+          -200, 
+          -225
+        ],
+        "Max": [
+          100,
+          -175
+        ],
+        "Scale": [
+          200.0,
+          50.0
+        ],
+        "Position": [
+          -100,
+		      -200
+        ]
+      },
+      "Dialogue": {
+        "Dialogue Type": "Boarder",
+        "Suspicious Flag": true,
+        "Suspicious Level": 1
+      },
+      "Button_Behaviour": {}
+    },
+    {
+      "Name": "Dialogue Dark Overlay",
+      "Transform": {
+        "Scale": [
+          1000.0,
+          1000.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -200.0,
+          63.0
+        ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "UI Elements",
+        "Render Priority": "0",
+        "Texture Path": "./Assets/Textures/UI_Dialogue_DarkOverlay.png",
+        "Render Off": false
+      },
+      "Dialogue": {
+        "Dialogue Type": "Boarder",
+        "Suspicious Flag": false,
+        "Suspicious Level": 0
+      }
+    },
+    {
+      "Name": "Sus Meter Animation",
+      "Transform": {
+        "Scale": [
+          100.0,
+          100.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -500.0,
+          200.0
+        ]
+      },
+      "Texture": {
+        "Animating": true,
+        "Render Layer": "UI Elements",
+        "Render Priority": "100",
+        "Render Off": true,
+        "States": {
+          "Glow": [
+            "./Assets/Textures/VFX_SusUI_IncreaseMeter_4R_5C_18F.png",
+            4,
+            5,
+            18,
+            1.0
+          ],
+          "Idle": [
+            "./Assets/Textures/UI_SusMeter_Full.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        }
+      },
+      "SusMeter_Behaviour": {}
+    },
+    {
+      "Name": "Sus Meter Arrow",
+      "Transform": {
+        "Scale": [
+          80.0,
+          80.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 180.0,
+        "Translate": [
+          -300.50,
+          120.50
+        ]
+      },
+      "Texture": {
+        "Animating": false,
+        "Render Layer": "UI Elements",
+        "Render Priority": "101",
+        "Texture Path": "./Assets/Textures/UI_SusMeter_Arrow.png", 
+        "Render Off": true
+      },
+      "SusMeter_Behaviour": {}
+    }
+  ]
+}

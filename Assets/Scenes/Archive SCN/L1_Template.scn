@@ -1,0 +1,176 @@
+25
+BackgroundMap #Object Name
+0.00,0.00 #Position Transform->Translate ->X ->Y
+1000.00,1000.00 #Position Transform->Translate ->X ->Y
+0.00,0.00,0.00 #Color Color ->R ->G ->B
+./Assets/Textures/Environment_Background_Concept.png 0 #Texture (if static, "0" if animated, "1")
+(-10.00,-10.00) (10.00,10.00) #Collision Collision ->Min(x,y) ->Max(x,y)
+
+Evid_GlassPieces_0
+-276.54,-479.01
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-376.54,-579.01) (-176.54,-379.01)
+
+Evid_GlassPieces_1
+854.32,133.33
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(754.32,33.33) (954.32,233.33)
+
+Evid_GlassPieces_3
+167.90,-711.11
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(67.90,-811.11) (267.90,-611.11)
+
+Evid_GlassPieces_4
+-790.12,155.55
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-890.12,55.55) (-690.12,255.55)
+
+Cop2
+-713.58,-639.50
+150.00,150.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-792.58,-737.50) (-634.58,-541.50)
+
+Cop1
+-9.87,155.55
+150.00,150.00
+X,X,X
+./Assets/Textures/Character_NPC_2_Sprite.png 0
+(-96.37,58.55) (76.62,252.55)
+
+Player
+743.20,-664.19
+150.00,150.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(628.20,-764.19) (858.20,-564.19)
+
+Prop_Chair_2_0
+160.00,65.18
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Chair_2.png 0
+(150.00,55.18) (170.00,75.18)
+
+Prop_Chair_2_1
+234.56,-17.28
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Chair_2.png 0
+(184.56,-67.28) (284.56,32.71)
+
+Prop_Chair_2_2
+-337.76,49.38
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Chair_2.png 0
+(-347.76,39.38) (-327.76,59.38)
+
+Prop_Chair_2_3
+-367.39,-33.58
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Chair_2.png 0
+(-377.39,-43.58) (-357.39,-23.58)
+
+Prop_Cupboard_3_0
+-568.88,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-578.88,456.17) (-558.88,476.17)
+
+Prop_Cupboard_3_1
+-379.25,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-389.25,456.17) (-369.25,476.17)
+
+Prop_Cupboard_3_2
+-185.66,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-195.66,456.17) (-175.66,476.17)
+
+Prop_Cupboard_3_3
+7.90,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-2.10,456.17) (17.90,476.17)
+
+Prop_Cupboard_3_4
+333.82,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(323.82,456.17) (343.82,476.17)
+
+Prop_Cupboard_3_5
+527.40,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(517.40,456.17) (537.40,476.17)
+
+Prop_Cupboard_3_6
+720.97,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(710.97,456.17) (730.97,476.17)
+
+Prop_Cupboard_3_7
+910.60,468.14
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(900.60,458.14) (920.60,478.14)
+
+Prop_Cupboard_3_9
+-758.51,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-768.51,456.17) (-748.51,476.17)
+
+Prop_Fridge_0
+173.82,466.17
+120.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(163.82,456.17) (183.82,476.17)
+
+Prop_Fridge_1
+-920.48,464.19
+120.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-930.48,454.19) (-910.48,474.19)
+
+Prop_Longtable_4
+-90.86,43.45
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(-100.86,33.45) (-80.86,53.45)
+
+Prop_Longtable_5
+-92.83,-43.45
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(-102.83,-53.45) (-82.83,-33.45)
+

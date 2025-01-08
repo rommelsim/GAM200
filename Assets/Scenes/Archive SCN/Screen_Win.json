@@ -1,0 +1,35 @@
+{
+  "Level": "Win",
+  "Asset": "Scene",
+  "Version": "1.140223",
+  "Game Objects": [
+    {
+      "Name": "Win Screen",
+      "Transform": {
+        "Scale": [ 845.0, 450.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ 0, 0 ]
+      },
+      "Collision": {
+        "Min": [ -46.244998931884766, -71.14925384521484 ],
+        "Max": [ 53.755001068115234, 28.850744247436523 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Position": [ 3.755002021789551, -21.149255752563477 ]
+      },
+      "Texture": {
+        "Render Layer": "Gameplay",
+        "Render Priority": "8",
+        "States": {
+          "Null": [
+            "./Assets/Textures/Level_Complete_8R_5C_39F.png",
+            8,
+            5,
+            39,
+            1.0
+          ]
+        }
+      }
+    }
+  ]
+}

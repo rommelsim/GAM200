@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(SolutionDir)lib\glew-2.2.0\include\GL;$(SolutionDir)lib\glfw-3.3.8.bin.WIN64\include\GLFW;$(SolutionDir)lib\glm-0.9.9.8\glm;$(SolutionDir)lib\stb-master\stb-master;$(SolutionDir)lib\freetype\include;$(SolutionDir)lib\fmod64\fmod\core\inc;$(SolutionDir)lib\spdlog\include;$(SolutionDir)lib\rapidjson\include\rapidjson;$(SolutionDir)StormEngine;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib\glew-2.2.0\lib\Release\x64;$(SolutionDir)lib\glfw-3.3.8.bin.WIN64\lib-vc2019;$(SolutionDir)lib\freetype\release static\vs2015-2022\win64;$(SolutionDir)lib\fmod64\fmod\core\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>glew32.lib;glfw3.lib;opengl32.lib;fmod_vc.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+    </ClCompile>
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>SOLUTIONDIR=R"($(SolutionDir))";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)lib\glew-2.2.0\bin\Release\x64\glew32.dll" "$(TargetDir)glew32.dll" /Y
+copy "$(SolutionDir)lib\glfw-3.3.8.bin.WIN64\lib-vc2019\glfw3.dll" "$(TargetDir)glfw3.dll" /Y
+copy "$(SolutionDir)lib\fmod64\fmod\core\lib\x64\fmod.dll" "$(TargetDir)fmod.dll" /Y
+start xcopy "$(SolutionDir)Assets\*.*" "$(TargetDir)\Assets" /Y /I /E
+start xcopy "$(SolutionDir)Config\*.*" "$(TargetDir)\Config" /Y /I /E</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

@@ -1,0 +1,49 @@
+7
+Player1
+743.20,-300.00
+120.00,120.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(0,0) (50,60)
+
+Evidence_0 #Object Name
+-5.18,293.82 #Position Transform->Translate ->X ->Y
+50.00,50.00 #Position Transform->Translate ->X ->Y
+X,X,X #Color Color ->R ->G ->B
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0 #Texture (if static, "0" if animated, "1")
+(0,0) (50,70)
+
+Evidence_1
+-378.51,29.38 #Position Transform->Translate ->X ->Y
+50.00,50.00 #Position Transform->Translate ->X ->Y
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0 #Texture (if static, "0" if animated, "1")
+(0,0) (50,70)
+
+Evidence_2
+53.58,-212.59 #Position Transform->Translate ->X ->Y
+50.00,50.00 #Position Transform->Translate ->X ->Y
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0 #Texture (if static, "0" if animated, "1")
+(0,0) (50,70)
+
+Cop1
+-338.76,314.56 #Position Transform->Translate ->X ->Y
+100.00,100.00 #Position Transform->Translate ->X ->Y
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0 #Texture (if static, "0" if animated, "1")
+(50,70)
+
+Cop2
+-577.28,-212.59 #Position Transform->Translate ->X ->Y
+100.00,100.00 #Position Transform->Translate ->X ->Y
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0 #Texture (if static, "0" if animated, "1")
+(50,70)
+
+Tools_0
+617.03,324.93 #Position Transform->Translate ->X ->Y
+50.00,50.00 #Position Transform->Translate ->X ->Y
+X,X,X
+./Assets/Textures/Environment_Evidence_Mop.png 0 #Texture (if static, "0" if animated, "1")
+(50,70)

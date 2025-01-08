@@ -1,0 +1,43 @@
+{
+    "Game": "In Plain Sight",
+    "Dialogue": [
+        {
+            "Name": "Player",
+            "Suspicious": [
+                {
+                    "Taking this home": 10
+                },
+                {
+                    "Bringing this to a hobo": 20
+                }
+            ],
+            "Ordinary": [
+                {
+                    "Sending this to evidence": 5
+                },
+                {
+                    "Joe told me to bring this to him": 1
+                }
+            ]
+        },
+        {
+            "Name": "Bob",
+            "Normal": [
+                {
+                    "": ""
+                },
+                {
+                    "": ""
+                }
+            ],
+            "Investigating": [
+                {
+                    "": ""
+                },
+                {
+                    "": ""
+                }
+            ]
+        }
+    ]
+}

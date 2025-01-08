@@ -1,0 +1,45 @@
+{
+    "Game Objects": [
+      {
+        "Name": "Prompt",
+        "Transform": {
+            "Scale": [
+               400.0,
+               300.0
+              ],
+              "Rotation Angle": 0.0,
+              "Rotation Speed": 0.0,
+              "Translate": [
+                0,
+                0
+              ]
+        },
+        "Texture":{
+            "Animating": false,
+            "Render Layer": "UI Elements",
+            "Render Priority": "0",
+            "Texture Path"   : "./Assets/Textures/UI_Dialogue_TextBox.png"
+        }, 
+        "Font":
+        {
+            "Text" : "Hi Creator",
+            "Font Path": "./Assets/Fonts/IndieFlower.ttf", 
+            "Scale": [
+                95.0,
+                100.0
+            ],
+            "Translate": [
+                -200.50,
+                200.50
+            ]
+        }, 
+        "Dialogue":
+        {
+            "Dialogue Type" : "Prompt",
+            "Dialogue Text" : "Hello Creator.",
+            "Parent Node"   : "Node #1"
+        }
+      }
+
+    ]
+}

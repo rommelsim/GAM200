@@ -1,0 +1,126 @@
+18
+BackgroundMap #Object Name
+0.00,0.00 #Position Transform->Translate ->X ->Y
+1000.00,1000.00 #Scale Transform->Translate ->X ->Y
+0.00,0.00,0.00 #Color Color ->R ->G ->B
+./Assets/Textures/Environment_Background_Concept.png 0 #Texture (if static, "0" if animated, "1")
+(0,0) (0,0) #Collision Collision ->Min(x,y) ->Max(x,y)
+
+Prop_Chair_2_0
+160.00,65.18
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Chair_2.png 0
+(0,0) (37,10)
+
+Prop_Chair_2_1
+298.27,-158.02
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Chair_2.png 0
+(0,0) (37,10)
+
+Prop_Chair_2_2
+-337.77,49.38
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Chair_2.png 0
+(0,0) (37,10)
+
+Prop_Chair_2_3
+-367.40,-33.58
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Chair_2.png 0
+(0,0) (37,10)
+
+Prop_Cupboard_3_0
+-568.88,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(0,0) (90,200)
+
+Prop_Cupboard_3_1
+-379.25,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(0,0) (90,200)
+
+Prop_Cupboard_3_2
+-185.67,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(0,0) (90,200)
+
+Prop_Cupboard_3_3
+7.90,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(0,0) (90,200)
+
+Prop_Cupboard_3_4
+333.82,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(0,0) (90,200)
+
+Prop_Cupboard_3_5
+527.40,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(0,0) (90,200)
+
+Prop_Cupboard_3_6
+720.98,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(0,0) (90,200)
+
+Prop_Cupboard_3_7
+910.61,468.14
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(0,0) (90,200)
+
+Prop_Cupboard_3_9
+-758.51,466.17
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(0,0) (90,200)
+
+Prop_Fridge_0
+173.82,466.17
+120.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(0,0) (70,200)
+
+Prop_Fridge_1
+-920.49,464.19
+120.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(0,0) (70,200)
+
+Prop_Longtable_4
+-90.86,43.45
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(0,0) (170,30)
+
+Prop_Longtable_5
+-92.83,-43.45
+200.00,200.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(0,0) (170,30)

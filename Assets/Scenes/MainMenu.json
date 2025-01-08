@@ -1,0 +1,605 @@
+{
+  "Level": "Main Menu",
+  "Asset": "Scene",
+  "Version": "1.140223",
+  "Game Objects": [
+    {
+      "Name": "Main Menu0",
+      "Transform": {
+        "Scale": [
+          845.0,
+          450.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          0.0,
+          0.0
+        ]
+      },
+      "Texture": {
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "States": {
+          "Null": [
+            "./Assets/Textures\\MenuHUD_Animations_BG.png",
+            4,
+            5,
+            19,
+            1.0
+          ]
+        }
+      },
+      "Button_Behaviour": {}
+    },
+    {
+      "Name": "Main Menu Credits Button3",
+      "Transform": {
+        "Scale": [
+          100.0,
+          100.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -575.2906494140625,
+          -157.31341552734375
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -635.2906494140625,
+          -157.31341552734375
+        ],
+        "Max": [
+          -515.2906494140625,
+          -117.31341552734375
+        ],
+        "Scale": [
+          60.0,
+          20.0
+        ],
+        "Position": [
+          -575.2906494140625,
+          -157.31341552734375
+        ]
+      },
+      "Texture": {
+        "States": {
+          "Mouse Hovering": [
+            "./Assets/Textures/VFX_MainMenu_Credits_Hover_4R_5C_16F.png",
+            4,
+            5,
+            16,
+            1.0
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures/VFX_MainMenu_Credits_Hover_0000.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {}
+    },
+    {
+      "Name": "Main Menu Start Button0",
+      "Transform": {
+        "Scale": [
+          90.0,
+          90.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -575.2906494140625,
+          51.04476928710938
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -635.2906494140625,
+          71.04476928710938
+        ],
+        "Max": [
+          -515.2906494140625,
+          111.04476928710938
+        ],
+        "Scale": [
+          60.0,
+          20.0
+        ],
+        "Position": [
+          -575.2906494140625,
+          51.04476928710938
+        ]
+      },
+      "Texture": {
+        "States": {
+          "Mouse Hovering": [
+            "./Assets/Textures/VFX_MainMenu_Start_Hover_4R_5C_16F.png",
+            4,
+            5,
+            16,
+            1.0
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures/VFX_MainMenu_Start_Hover_0000.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {}
+    },
+    {
+      "Name": "Main Menu Settings Button1",
+      "Transform": {
+        "Scale": [
+          100.0,
+          100.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -571.9400024414063,
+          -90.5099983215332
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -631.9400024414063,
+          -80.50999450683594
+        ],
+        "Max": [
+          -511.94000244140625,
+          -40.5099983215332
+        ],
+        "Scale": [
+          60.0,
+          20.0
+        ],
+        "Position": [
+          -571.9400024414063,
+          -90.5099983215332
+        ]
+      },
+      "Texture": {
+        "States": {
+          "Mouse Hovering": [
+            "./Assets/Textures/VFX_MainMenu_Settings_Hover_4R_5C_16F.png",
+            4,
+            5,
+            16,
+            1.0
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures/VFX_MainMenu_Settings_Hover_0000.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {}
+    },
+    {
+      "Name": "Main Menu HowToPlay Button2",
+      "Transform": {
+        "Scale": [
+          115.0,
+          115.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -574.9299926757813,
+          -16.440000534057617
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -634.9299926757813,
+          -3.559999465942383
+        ],
+        "Max": [
+          -514.9299926757813,
+          36.44000244140625
+        ],
+        "Scale": [
+          60.0,
+          20.0
+        ],
+        "Position": [
+          -574.9299926757813,
+          -16.440000534057617
+        ]
+      },
+      "Texture": {
+        "States": {
+          "Mouse Hovering": [
+            "./Assets/Textures/VFX_MainMenu_HTP_Hover_4R_5C_16F.png",
+            4,
+            5,
+            16,
+            1.0
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures/VFX_MainMenu_HTP_Hover_0000.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {}
+    },
+    {
+      "Name": "Start Menu Fox 5",
+      "Transform": {
+        "Scale": [
+          171.0,
+          171.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -575.4600219726563,
+          222.38804626464844
+        ]
+      },
+      "Texture": {
+        "Render Layer": "Gameplay",
+        "Render Priority": "0",
+        "States": {
+          "Null": [
+            "./Assets/Textures\\UI_GameLogo.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        }
+      },
+      "Button_Behaviour": {}
+    },
+    {
+      "Name": "Main Menu Exit Button4",
+      "Transform": {
+        "Scale": [
+          100.0,
+          100.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -572.780029296875,
+          -225.8699951171875
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -632.780029296875,
+          -235.8699951171875
+        ],
+        "Max": [
+          -512.780029296875,
+          -195.8699951171875
+        ],
+        "Scale": [
+          60.0,
+          20.0
+        ],
+        "Position": [
+          -572.780029296875,
+          -225.8699951171875
+        ]
+      },
+      "Texture": {
+        "States": {
+          "Mouse Hovering": [
+            "./Assets/Textures/VFX_MainMenu_Exit_Hover_4R_5C_16F.png",
+            4,
+            5,
+            16,
+            1.0
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures/VFX_MainMenu_Exit_Hover_0000.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {}
+    },
+    {
+      "Name": "Arrow Start",
+      "Transform": {
+        "Scale": [
+          100.0,
+          100.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -655.2906494140625,
+          51.04476928710938
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -635.2906494140625,
+          71.04476928710938
+        ],
+        "Max": [
+          -515.2906494140625,
+          111.04476928710938
+        ],
+        "Scale": [
+          60.0,
+          20.0
+        ],
+        "Position": [
+          -575.2906494140625,
+          51.04476928710938
+        ]
+      },
+      "Texture": {
+        "States": {
+          "Mouse Hovering": [
+            "./Assets/Textures/VFX_Arrow_Hover_4R_4C_16F.png",
+            4,
+            4,
+            16,
+            1.0
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures/Empty_Texture.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {}
+    },
+    {
+      "Name": "Arrow How To Play",
+      "Transform": {
+        "Scale": [
+          100.0,
+          100.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -674.9299926757813,
+          -16.440000534057617
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -634.9299926757813,
+          -3.559999465942383
+        ],
+        "Max": [
+          -514.9299926757813,
+          36.44000244140625
+        ],
+        "Scale": [
+          60.0,
+          20.0
+        ],
+        "Position": [
+          -574.9299926757813,
+          -16.440000534057617
+        ]
+      },
+      "Texture": {
+        "States": {
+          "Mouse Hovering": [
+            "./Assets/Textures/VFX_Arrow_Hover_4R_4C_16F.png",
+            4,
+            4,
+            16,
+            1.0
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures/Empty_Texture.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {}
+    },
+    {
+      "Name": "Arrow Settings",
+      "Transform": {
+        "Scale": [
+          100.0,
+          100.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -655.9400024414063,
+          -90.5099983215332
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -631.9400024414063,
+          -80.50999450683594
+        ],
+        "Max": [
+          -511.94000244140625,
+          -40.5099983215332
+        ],
+        "Scale": [
+          60.0,
+          20.0
+        ],
+        "Position": [
+          -571.9400024414063,
+          -90.5099983215332
+        ]
+      },
+      "Texture": {
+        "States": {
+          "Mouse Hovering": [
+            "./Assets/Textures/VFX_Arrow_Hover_4R_4C_16F.png",
+            4,
+            4,
+            16,
+            1.0
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures/Empty_Texture.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {}
+    },
+    {
+      "Name": "Arrow Credits",
+      "Transform": {
+        "Scale": [
+          100.0,
+          100.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -660.2906494140625,
+          -157.31341552734375
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -635.2906494140625,
+          -157.31341552734375
+        ],
+        "Max": [
+          -515.2906494140625,
+          -117.31341552734375
+        ],
+        "Scale": [
+          60.0,
+          20.0
+        ],
+        "Position": [
+          -575.2906494140625,
+          -157.31341552734375
+        ]
+      },
+      "Texture": {
+        "States": {
+          "Mouse Hovering": [
+            "./Assets/Textures/VFX_Arrow_Hover_4R_4C_16F.png",
+            4,
+            4,
+            16,
+            1.0
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures/Empty_Texture.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {}
+    },
+    {
+      "Name": "Arrow Exit",
+      "Transform": {
+        "Scale": [
+          100.0,
+          100.0
+        ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [
+          -655.780029296875,
+          -225.87
+        ]
+      },
+      "Collision": {
+        "Min": [
+          -632.780029296875,
+          -235.8699951171875
+        ],
+        "Max": [
+          -512.780029296875,
+          -195.8699951171875
+        ],
+        "Scale": [
+          60.0,
+          20.0
+        ],
+        "Position": [
+          -572.780029296875,
+          -225.8699951171875
+        ]
+      },
+      "Texture": {
+        "States": {
+          "Mouse Hovering": [
+            "./Assets/Textures/VFX_Arrow_Hover_4R_4C_16F.png",
+            4,
+            4,
+            16,
+            1.0
+          ],
+          "Mouse Idle": [
+            "./Assets/Textures/Empty_Texture.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        },
+        "Render Layer": "Gameplay",
+        "Render Priority": "2"
+      },
+      "Button_Behaviour": {}
+    }
+  ]
+}

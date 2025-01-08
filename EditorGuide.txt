@@ -1,0 +1,11 @@
+Editor Guide
+
+Create Prefabs on the left, list Down relevant components.
+
+Toggle preferred prefab and click on viewport to spawn prefabs.
+Prefabs will be saved upon proper exit
+Click on create prefabs to create a new prefab.
+Transformations can be adjusted in the Hierarchy panel.
+Delete objects/ components in the hierarchy list
+Open/ Save scenes by clicking on the top left menu.
+

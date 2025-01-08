@@ -1,0 +1,1114 @@
+159
+Character_NPC_1_Sprite_0 #Object Name
+-718.51,288.88 #Position Transform->Translate ->X ->Y
+100.00,100.00 #Position Transform->Translate ->X ->Y
+X,X,X #Color Color ->R ->G ->B
+./Assets/Textures/Character_NPC_1_Sprite.png 0 #Texture (if static, "0" if animated, "1")
+(-768.51,238.88) (-668.51,338.88) #Collision Collision ->Min(x,y) ->Max(x,y)
+
+Character_NPC_1_Sprite_1
+-380.24,298.76
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-430.24,248.76) (-330.24,348.76)
+
+Character_NPC_1_Sprite_10
+9.87,-145.67
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-40.12,-195.67) (59.87,-95.67)
+
+Character_NPC_1_Sprite_11
+-155.55,-133.33
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-205.55,-183.33) (-105.55,-83.33)
+
+Character_NPC_1_Sprite_12
+-267.90,-120.98
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-317.90,-170.98) (-217.90,-70.98)
+
+Character_NPC_1_Sprite_13
+-455.55,-117.28
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-505.55,-167.28) (-405.55,-67.28)
+
+Character_NPC_1_Sprite_14
+-503.70,-77.77
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-553.70,-127.77) (-453.70,-27.77)
+
+Character_NPC_1_Sprite_15
+-707.40,-34.56
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-757.40,-84.56) (-657.40,15.43)
+
+Character_NPC_1_Sprite_16
+-756.79,72.83
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-806.79,22.83) (-706.79,122.83)
+
+Character_NPC_1_Sprite_17
+-703.70,182.71
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-753.70,132.71) (-653.70,232.71)
+
+Character_NPC_1_Sprite_18
+-609.87,274.07
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-659.87,224.07) (-559.87,324.07)
+
+Character_NPC_1_Sprite_19
+-503.70,346.91
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-553.70,296.91) (-453.70,396.91)
+
+Character_NPC_1_Sprite_2
+-9.87,269.13
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-59.87,219.13) (40.12,319.13)
+
+Character_NPC_1_Sprite_20
+-448.14,364.19
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-498.14,314.19) (-398.14,414.19)
+
+Character_NPC_1_Sprite_21
+-186.41,227.16
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-236.41,177.16) (-136.41,277.16)
+
+Character_NPC_1_Sprite_22
+-62.96,88.88
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-112.96,38.88) (-12.96,138.88)
+
+Character_NPC_1_Sprite_23
+34.56,29.62
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(-15.43,-20.37) (84.56,79.62)
+
+Character_NPC_1_Sprite_24
+264.19,77.77
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(214.19,27.77) (314.19,127.77)
+
+Character_NPC_1_Sprite_25
+311.11,197.53
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(261.11,147.53) (361.11,247.53)
+
+Character_NPC_1_Sprite_26
+444.44,238.27
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(394.44,188.27) (494.44,288.27)
+
+Character_NPC_1_Sprite_27
+501.23,170.37
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(451.23,120.37) (551.23,220.37)
+
+Character_NPC_1_Sprite_3
+186.41,186.41
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(136.41,136.41) (236.41,236.41)
+
+Character_NPC_1_Sprite_4
+322.22,129.62
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(272.22,79.62) (372.22,179.62)
+
+Character_NPC_1_Sprite_5
+419.75,211.11
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(369.75,161.11) (469.75,261.11)
+
+Character_NPC_1_Sprite_6
+508.64,256.79
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(458.64,206.79) (558.64,306.79)
+
+Character_NPC_1_Sprite_7
+545.67,2.46
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(495.67,-47.53) (595.67,52.46)
+
+Character_NPC_1_Sprite_8
+374.07,-71.60
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(324.07,-121.60) (424.07,-21.60)
+
+Character_NPC_1_Sprite_9
+103.70,-149.38
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_NPC_1_Sprite.png 0
+(53.70,-199.38) (153.70,-99.38)
+
+Environment_Evidence_GlassPieces_0
+-306.17,-80.24
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-356.17,-130.24) (-256.17,-30.24)
+
+Environment_Evidence_GlassPieces_1
+-334.56,166.66
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-384.56,116.66) (-284.56,216.66)
+
+Environment_Evidence_GlassPieces_10
+-76.54,-38.27
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-126.54,-88.27) (-26.54,11.72)
+
+Environment_Evidence_GlassPieces_11
+104.93,7.40
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(54.93,-42.59) (154.93,57.40)
+
+Environment_Evidence_GlassPieces_12
+277.77,72.83
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(227.77,22.83) (327.77,122.83)
+
+Environment_Evidence_GlassPieces_13
+422.22,174.07
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(372.22,124.07) (472.22,224.07)
+
+Environment_Evidence_GlassPieces_14
+485.18,228.39
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(435.18,178.39) (535.18,278.39)
+
+Environment_Evidence_GlassPieces_15
+379.01,285.18
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(329.01,235.18) (429.01,335.18)
+
+Environment_Evidence_GlassPieces_16
+243.20,297.53
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(193.20,247.53) (293.20,347.53)
+
+Environment_Evidence_GlassPieces_17
+-23.45,355.55
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-73.45,305.55) (26.54,405.55)
+
+Environment_Evidence_GlassPieces_18
+-100.00,266.66
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-150.00,216.66) (-50.00,316.66)
+
+Environment_Evidence_GlassPieces_19
+22.22,165.43
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-27.77,115.43) (72.22,215.43)
+
+Environment_Evidence_GlassPieces_2
+-462.96,240.74
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-512.96,190.74) (-412.96,290.74)
+
+Environment_Evidence_GlassPieces_20
+195.06,74.07
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(145.06,24.07) (245.06,124.07)
+
+Environment_Evidence_GlassPieces_21
+276.54,24.69
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(226.54,-25.30) (326.54,74.69)
+
+Environment_Evidence_GlassPieces_22
+482.71,53.08
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(432.71,3.08) (532.71,103.08)
+
+Environment_Evidence_GlassPieces_23
+498.76,55.55
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(448.76,5.55) (548.76,105.55)
+
+Environment_Evidence_GlassPieces_24
+518.51,172.83
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(468.51,122.83) (568.51,222.83)
+
+Environment_Evidence_GlassPieces_25
+522.22,212.34
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(472.22,162.34) (572.22,262.34)
+
+Environment_Evidence_GlassPieces_26
+541.97,269.13
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(491.97,219.13) (591.97,319.13)
+
+Environment_Evidence_GlassPieces_3
+-576.54,312.34
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-626.54,262.34) (-526.54,362.34)
+
+Environment_Evidence_GlassPieces_4
+-665.43,362.96
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-715.43,312.96) (-615.43,412.96)
+
+Environment_Evidence_GlassPieces_5
+-814.81,283.95
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-864.81,233.95) (-764.81,333.95)
+
+Environment_Evidence_GlassPieces_6
+-795.06,72.83
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-845.06,22.83) (-745.06,122.83)
+
+Environment_Evidence_GlassPieces_7
+-745.67,1.23
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-795.67,-48.76) (-695.67,51.23)
+
+Environment_Evidence_GlassPieces_8
+-582.71,-85.18
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-632.71,-135.18) (-532.71,-35.18)
+
+Environment_Evidence_GlassPieces_9
+-302.46,-79.01
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0
+(-352.46,-129.01) (-252.46,-29.01)
+
+Environment_Prop_Cupboard_3_0
+-754.32,-74.07
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-804.32,-104.07) (-704.32,-44.07)
+
+Environment_Prop_Cupboard_3_1
+-714.81,211.11
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-764.81,181.11) (-664.81,241.11)
+
+Environment_Prop_Cupboard_3_10
+174.07,-143.20
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(124.07,-173.20) (224.07,-113.20)
+
+Environment_Prop_Cupboard_3_11
+-160.49,-88.88
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-210.49,-118.88) (-110.49,-58.88)
+
+Environment_Prop_Cupboard_3_12
+-550.61,187.65
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-600.61,157.65) (-500.61,217.65)
+
+Environment_Prop_Cupboard_3_2
+-462.96,325.92
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-512.96,295.92) (-412.96,355.92)
+
+Environment_Prop_Cupboard_3_3
+-395.06,-50.61
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-445.06,-80.61) (-345.06,-20.61)
+
+Environment_Prop_Cupboard_3_4
+-196.29,-183.95
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-246.29,-213.95) (-146.29,-153.95)
+
+Environment_Prop_Cupboard_3_5
+-13.58,137.03
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-63.58,107.03) (36.41,167.03)
+
+Environment_Prop_Cupboard_3_6
+-140.74,285.18
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(-190.74,255.18) (-90.74,315.18)
+
+Environment_Prop_Cupboard_3_7
+350.61,9.87
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(300.61,-20.12) (400.61,39.87)
+
+Environment_Prop_Cupboard_3_8
+460.49,279.01
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(410.49,249.01) (510.49,309.01)
+
+Environment_Prop_Cupboard_3_9
+601.23,-62.96
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Cupboard_3.png 0
+(551.23,-92.96) (651.23,-32.96)
+
+Environment_Prop_Fridge_0
+-787.65,406.17
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-837.65,356.17) (-737.65,456.17)
+
+Environment_Prop_Fridge_1
+-695.06,351.85
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-745.06,301.85) (-645.06,401.85)
+
+Environment_Prop_Fridge_10
+400.00,307.40
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(350.00,257.40) (450.00,357.40)
+
+Environment_Prop_Fridge_11
+485.18,288.88
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(435.18,238.88) (535.18,338.88)
+
+Environment_Prop_Fridge_12
+553.08,197.53
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(503.08,147.53) (603.08,247.53)
+
+Environment_Prop_Fridge_13
+545.67,74.07
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(495.67,24.07) (595.67,124.07)
+
+Environment_Prop_Fridge_14
+514.81,-33.33
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(464.81,-83.33) (564.81,16.66)
+
+Environment_Prop_Fridge_15
+414.81,-119.75
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(364.81,-169.75) (464.81,-69.75)
+
+Environment_Prop_Fridge_16
+370.37,-134.56
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(320.37,-184.56) (420.37,-84.56)
+
+Environment_Prop_Fridge_17
+203.70,-119.75
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(153.70,-169.75) (253.70,-69.75)
+
+Environment_Prop_Fridge_18
+143.20,-112.34
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(93.20,-162.34) (193.20,-62.34)
+
+Environment_Prop_Fridge_19
+-24.69,-107.40
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-74.69,-157.40) (25.30,-57.40)
+
+Environment_Prop_Fridge_2
+-553.08,290.12
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-603.08,240.12) (-503.08,340.12)
+
+Environment_Prop_Fridge_20
+-106.17,-119.75
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-156.17,-169.75) (-56.17,-69.75)
+
+Environment_Prop_Fridge_21
+-235.80,-133.33
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-285.80,-183.33) (-185.80,-83.33)
+
+Environment_Prop_Fridge_22
+-318.51,-145.67
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-368.51,-195.67) (-268.51,-95.67)
+
+Environment_Prop_Fridge_23
+-472.83,-125.92
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-522.83,-175.92) (-422.83,-75.92)
+
+Environment_Prop_Fridge_24
+-590.12,-122.22
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-640.12,-172.22) (-540.12,-72.22)
+
+Environment_Prop_Fridge_25
+-751.85,-123.45
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-801.85,-173.45) (-701.85,-73.45)
+
+Environment_Prop_Fridge_26
+-780.24,-128.39
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-830.24,-178.39) (-730.24,-78.39)
+
+Environment_Prop_Fridge_27
+-753.08,43.20
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-803.08,-6.79) (-703.08,93.20)
+
+Environment_Prop_Fridge_28
+-716.04,124.69
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-766.04,74.69) (-666.04,174.69)
+
+Environment_Prop_Fridge_29
+-606.17,141.97
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-656.17,91.97) (-556.17,191.97)
+
+Environment_Prop_Fridge_3
+-408.64,325.92
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-458.64,275.92) (-358.64,375.92)
+
+Environment_Prop_Fridge_30
+-451.85,111.11
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-501.85,61.11) (-401.85,161.11)
+
+Environment_Prop_Fridge_31
+-383.95,85.18
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-433.95,35.18) (-333.95,135.18)
+
+Environment_Prop_Fridge_32
+-272.83,62.96
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-322.83,12.96) (-222.83,112.96)
+
+Environment_Prop_Fridge_33
+-144.44,117.28
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-194.44,67.28) (-94.44,167.28)
+
+Environment_Prop_Fridge_34
+-114.81,186.41
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-164.81,136.41) (-64.81,236.41)
+
+Environment_Prop_Fridge_35
+-153.08,329.62
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-203.08,279.62) (-103.08,379.62)
+
+Environment_Prop_Fridge_36
+-153.08,333.33
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-203.08,283.33) (-103.08,383.33)
+
+Environment_Prop_Fridge_37
+0.00,334.56
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-50.00,284.56) (50.00,384.56)
+
+Environment_Prop_Fridge_38
+216.04,154.32
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(166.04,104.32) (266.04,204.32)
+
+Environment_Prop_Fridge_39
+234.56,90.12
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(184.56,40.12) (284.56,140.12)
+
+Environment_Prop_Fridge_4
+-354.32,359.25
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-404.32,309.25) (-304.32,409.25)
+
+Environment_Prop_Fridge_40
+437.03,28.39
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(387.03,-21.60) (487.03,78.39)
+
+Environment_Prop_Fridge_41
+471.60,111.11
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(421.60,61.11) (521.60,161.11)
+
+Environment_Prop_Fridge_42
+201.23,170.37
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(151.23,120.37) (251.23,220.37)
+
+Environment_Prop_Fridge_43
+97.53,86.41
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(47.53,36.41) (147.53,136.41)
+
+Environment_Prop_Fridge_44
+53.08,19.75
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(3.08,-30.24) (103.08,69.75)
+
+Environment_Prop_Fridge_45
+-150.61,8.64
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-200.61,-41.35) (-100.61,58.64)
+
+Environment_Prop_Fridge_46
+-435.80,55.55
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-485.80,5.55) (-385.80,105.55)
+
+Environment_Prop_Fridge_47
+-632.09,83.95
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-682.09,33.95) (-582.09,133.95)
+
+Environment_Prop_Fridge_48
+-711.11,91.35
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-761.11,41.35) (-661.11,141.35)
+
+Environment_Prop_Fridge_49
+-793.82,127.16
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-843.82,77.16) (-743.82,177.16)
+
+Environment_Prop_Fridge_5
+-325.92,367.90
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-375.92,317.90) (-275.92,417.90)
+
+Environment_Prop_Fridge_50
+-800.00,164.19
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-850.00,114.19) (-750.00,214.19)
+
+Environment_Prop_Fridge_6
+-264.19,254.32
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-314.19,204.32) (-214.19,304.32)
+
+Environment_Prop_Fridge_7
+4.93,261.72
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(-45.06,211.72) (54.93,311.72)
+
+Environment_Prop_Fridge_8
+185.18,301.23
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(135.18,251.23) (235.18,351.23)
+
+Environment_Prop_Fridge_9
+292.59,317.28
+60.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Fridge.png 0
+(242.59,267.28) (342.59,367.28)
+
+Environment_Prop_Longtable_0
+-587.65,123.45
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(-652.65,38.45) (-522.65,208.45)
+
+Environment_Prop_Longtable_1
+-587.65,123.45
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(-652.65,38.45) (-522.65,208.45)
+
+Environment_Prop_Longtable_10
+367.90,-109.87
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(302.90,-194.87) (432.90,-24.87)
+
+Environment_Prop_Longtable_11
+277.77,213.58
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(212.77,128.58) (342.77,298.58)
+
+Environment_Prop_Longtable_2
+-182.71,65.43
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(-247.71,-19.56) (-117.71,150.43)
+
+Environment_Prop_Longtable_3
+-333.33,144.44
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(-398.33,59.44) (-268.33,229.44)
+
+Environment_Prop_Longtable_4
+100.00,282.71
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(35.00,197.71) (165.00,367.71)
+
+Environment_Prop_Longtable_5
+154.32,17.28
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(89.32,-67.71) (219.32,102.28)
+
+Environment_Prop_Longtable_6
+-19.75,-122.22
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(-84.75,-207.22) (45.24,-37.22)
+
+Environment_Prop_Longtable_7
+-514.81,-45.67
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(-579.81,-130.67) (-449.81,39.32)
+
+Environment_Prop_Longtable_8
+-270.37,306.17
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(-335.37,221.17) (-205.37,391.17)
+
+Environment_Prop_Longtable_9
+412.34,144.44
+100.00,100.00
+X,X,X
+./Assets/Textures/Environment_Prop_Longtable.png 0
+(347.34,59.44) (477.34,229.44)
+
+sprite131
+-48.14,249.38
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-98.14,199.38) (1.85,299.38)
+
+sprite132
+23.45,211.11
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-26.54,161.11) (73.45,261.11)
+
+sprite133
+-151.85,-20.98
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-201.85,-70.98) (-101.85,29.01)
+
+sprite134
+-376.54,-39.50
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-426.54,-89.50) (-326.54,10.49)
+
+sprite135
+-454.32,40.74
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-504.32,-9.25) (-404.32,90.74)
+
+sprite136
+-396.29,266.66
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-446.29,216.66) (-346.29,316.66)
+
+sprite137
+-217.28,318.51
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-267.28,268.51) (-167.28,368.51)
+
+sprite138
+53.08,317.28
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(3.08,267.28) (103.08,367.28)
+
+sprite139
+323.45,219.75
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(273.45,169.75) (373.45,269.75)
+
+sprite140
+395.06,122.22
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(345.06,72.22) (445.06,172.22)
+
+sprite141
+258.02,-34.56
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(208.02,-84.56) (308.02,15.43)
+
+sprite142
+75.30,-74.07
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(25.30,-124.07) (125.30,-24.07)
+
+sprite143
+-116.04,-23.45
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-166.04,-73.45) (-66.04,26.54)
+
+sprite144
+-211.11,90.12
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-261.11,40.12) (-161.11,140.12)
+
+sprite145
+-430.86,141.97
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-480.86,91.97) (-380.86,191.97)
+
+sprite146
+-574.07,155.55
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-624.07,105.55) (-524.07,205.55)
+
+sprite147
+-739.50,212.34
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-789.50,162.34) (-689.50,262.34)
+
+sprite148
+-774.07,112.34
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-824.07,62.34) (-724.07,162.34)
+
+sprite149
+-755.55,-48.14
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-805.55,-98.14) (-705.55,1.85)
+
+sprite150
+-575.30,390.12
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-625.30,340.12) (-525.30,440.12)
+
+sprite151
+-219.75,330.86
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(-269.75,280.86) (-169.75,380.86)
+
+sprite152
+300.00,251.85
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(250.00,201.85) (350.00,301.85)
+
+sprite153
+377.77,267.90
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(327.77,217.90) (427.77,317.90)
+
+sprite154
+460.49,285.18
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(410.49,235.18) (510.49,335.18)
+
+sprite155
+520.98,3.70
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(470.98,-46.29) (570.98,53.70)
+
+sprite156
+430.86,-80.24
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(380.86,-130.24) (480.86,-30.24)
+
+sprite157
+298.76,-124.69
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(248.76,-174.69) (348.76,-74.69)
+
+sprite158
+239.50,-123.45
+100.00,100.00
+X,X,X
+./Assets/Textures/Character_MainCharacter_Sprite.png 0
+(189.50,-173.45) (289.50,-73.45)
+

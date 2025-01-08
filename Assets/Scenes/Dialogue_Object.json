@@ -1,0 +1,322 @@
+{
+    "Game Objects": [
+      {
+        "Name": "Holding Picture Q1",
+        "IsActive" : true,
+        "Transform": {
+            "Scale": [
+               95.0,
+               100.0
+              ],
+              "Rotation Angle": 0.0,
+              "Rotation Speed": 0.0,
+              "Translate": [
+                -433.50,
+                260.50
+              ]
+        },
+        "Dialogue" : {
+            "Dialogue Text" : true,
+            "Type" : "Prompt",
+            "Prompt Text" : "What are you doing with that photo?"
+        },
+        "Texture":{
+          "Animating": false,
+          "Render Layer": "UI Elements",
+          "Render Priority": "6"
+        },
+        "Font": {
+          "Font Path": "./Assets/Fonts/IndieFlower.ttf"
+        }
+      },
+      {
+        "Name": "Holding Picture Q1's Boarder",
+        "IsActive" : true,
+        "Transform" : {
+          "Scale" : [
+            500.0,
+            320.0
+          ],
+          "Rotation Angle" : 0.0,
+          "Rotation Speed" : 0.0, 
+          "Translate" : 
+          [
+            -94.0,
+            282.50
+          ]
+        },
+        "Dialogue":{
+          "Dialogue Text" : false,
+          "Type" : "Boarder",
+          "Boarder Belongs To" : "Holding Picture Q1"
+        },
+        "Texture": {
+          "Animating": false,
+          "Texture Path": "./Assets/Textures/UI_Dialogue_TextBox.png",
+          "Render Layer": "UI Elements",
+          "Render Priority": "0"
+        }
+      },
+      {
+        "Name": "Officer Moose Option",
+        "IsActive" : true,
+        "Transform" : {
+          "Scale" : [
+            68.0,
+            200.0
+          ],
+          "Rotation Angle" : 0.0,
+          "Rotation Speed" : 0.0, 
+          "Translate" : 
+          [
+            -795.0,
+            -86.60
+          ]
+        }, 
+        "Dialogue" : {
+          "Dialogue Text" : true,
+          "Type" : "Option",
+          "Parent Prompt" : "Holding Picture Q1",
+          "Option Text" : "I was just about to show it to Officer Moose",
+          "Next Dialogue": "Officer Moose Whereabouts", 
+          "Suspicion Level": 0
+        },
+        "Texture":{
+          "Animating": false,
+          "Render Layer": "UI Elements",
+          "Render Priority": "6"
+        },
+        "Font": {
+          "Font Path": "./Assets/Fonts/IndieFlower.ttf"
+        }
+      },
+      {
+        "Name": "Officer Moose Option's Boarder",
+        "IsActive" : true,
+        "Transform" : {
+          "Scale" : [
+            365.0,
+            300.0
+          ],
+          "Rotation Angle" : 0.0,
+          "Rotation Speed" : 0.0, 
+          "Translate" : 
+          [
+            -484.00,
+            -60.00
+          ]
+        },
+        "Dialogue":{
+          "Dialogue Text" : false,  
+          "Type" : "Boarder",
+          "Boarder Belongs To" : "Officer Moose Option"
+        },
+        "Texture": {
+          "Animating": false,
+          "Texture Path": "./Assets/Textures/UI_Dialogue_SelectionBox_NotSelected.png",
+          "Render Layer": "UI Elements",
+          "Render Priority": "0"
+        },
+        "Collision": {
+          "Min": [ -982.50, 166.0 ],
+          "Max": [ -617.50, 266.0 ],
+          "Scale": [ 365.0, 100.0 ],
+          "Position": [ -800.0, 216.0 ]
+        }
+      },
+      {
+        "Name": "Secure Bag Option", 
+        "IsActive" : true,
+        "Transform" :
+        {
+          "Scale" : [
+            69.0,
+            200.0
+          ],
+          "Rotation Angle" : 0.0,
+          "Rotation Speed" : 0.0, 
+          "Translate" : 
+          [
+            32.00,
+            -89.50
+          ]
+        },
+        "Dialogue" : {
+          "Dialogue Text" : true,
+          "Type" : "Option",
+          "Parent Prompt" : "Holding Picture Q1",
+          "Option Text" : "About to secure the evidence in a bag",
+          "Next Dialogue": "NULL", 
+          "Suspicion Level": 1
+        },
+        "Font": {
+          "Font Path": "./Assets/Fonts/IndieFlower.ttf"
+        },
+        "Texture":{
+          "Animating": false,
+          "Render Layer": "UI Elements",
+          "Render Priority": "6"
+        }
+      }, 
+      {
+        "Name": "Secure Bag Option's Boarder",
+        "IsActive" : true,
+        "Transform" : {
+          "Scale" : [
+            365.0,
+            300.0
+          ],
+          "Rotation Angle" : 0.0,
+          "Rotation Speed" : 0.0, 
+          "Translate" : 
+          [
+            303.00,
+            -60.00
+          ]
+        },
+        "Dialogue":{
+          "Dialogue Text" : false,
+          "Type" : "Boarder",
+          "Boarder Belongs To" : "Secure Bag Option"
+        },
+        "Texture": {
+          "Animating": false,
+          "Texture Path": "./Assets/Textures/UI_Dialogue_SelectionBox_NotSelected.png",
+          "Render Layer": "UI Elements",
+          "Render Priority": "0"
+        },
+        "Collision": {
+          "Min": [ -485.50, -110.0 ],
+          "Max": [ -120.50, -10.0 ],
+          "Scale": [ 365.0, 100.0 ],
+          "Position": [ -303.0, -60.0 ]
+        }
+      },
+      {
+        "Name": "Officer Moose Whereabouts",
+        "IsActive" : false,
+        "Transform": {
+            "Scale": [
+               95.0,
+               100.0
+              ],
+              "Rotation Angle": 0.0,
+              "Rotation Speed": 0.0,
+              "Translate": [
+                -433.50,
+                260.50
+              ]
+        },
+        "Dialogue" : {
+            "Dialogue Text" : true,
+            "Type" : "Prompt",
+            "Prompt Text" : "Have you seen Officer Moose?"
+        },
+        "Texture":{
+          "Animating": false,
+          "Render Layer": "UI Elements",
+          "Render Priority": "6"
+        },
+        "Font": {
+          "Font Path": "./Assets/Fonts/IndieFlower.ttf"
+        }
+      },
+      {
+        "Name": "Moose at Kitchen Option",
+        "IsActive" : false,
+        "Transform" :
+        {
+          "Scale" : [
+            69.0,
+            200.0
+          ],
+          "Rotation Angle" : 0.0,
+          "Rotation Speed" : 0.0, 
+          "Translate" : 
+          [
+            32.00,
+            -89.50
+          ]
+        },
+        "Dialogue" : {
+          "Dialogue Text" : true,
+          "Type" : "Option",
+          "Parent Prompt" : "Officer Moose Whereabouts",
+          "Option Text" : "He is in the Kitchen",
+          "Next Dialogue": "NULL", 
+          "Suspicion Level": 0
+        },
+        "Font": {
+          "Font Path": "./Assets/Fonts/IndieFlower.ttf"
+        },
+        "Texture":{
+          "Animating": false,
+          "Render Layer": "UI Elements",
+          "Render Priority": "6"
+        }
+      },
+      {
+        "Name": "No Idea Option",
+        "IsActive" : false,
+        "Transform" :
+        {
+          "Scale" : [
+            69.0,
+            200.0
+          ],
+          "Rotation Angle" : 0.0,
+          "Rotation Speed" : 0.0, 
+          "Translate" : 
+          [
+            32.00,
+            -89.50
+          ]
+        },
+        "Dialogue" : {
+          "Dialogue Text" : true,
+          "Type" : "Option",
+          "Parent Prompt" : "Officer Moose Whereabouts",
+          "Option Text" : "I have no idea.",
+          "Next Dialogue": "Are You Sure? Q3", 
+          "Suspicion Level": 1
+        },
+        "Font": {
+          "Font Path": "./Assets/Fonts/IndieFlower.ttf"
+        },
+        "Texture":{
+          "Animating": false,
+          "Render Layer": "UI Elements",
+          "Render Priority": "6"
+        }
+      },
+      {
+        "Name": "Are You Sure? Q3",
+        "IsActive" : false,
+        "Transform": {
+            "Scale": [
+               95.0,
+               100.0
+              ],
+              "Rotation Angle": 0.0,
+              "Rotation Speed": 0.0,
+              "Translate": [
+                -433.50,
+                260.50
+              ]
+        },
+        "Dialogue" : {
+            "Dialogue Text" : true,
+            "Type" : "Prompt",
+            "Prompt Text" : "Hmm... Alright."
+        },
+        "Texture":{
+          "Animating": false,
+          "Render Layer": "UI Elements",
+          "Render Priority": "6"
+        },
+        "Font": {
+          "Font Path": "./Assets/Fonts/IndieFlower.ttf"
+        }
+      }
+    ]
+}

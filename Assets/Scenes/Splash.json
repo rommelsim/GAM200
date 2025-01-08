@@ -1,0 +1,115 @@
+{
+    "Level": "Splash",
+    "Asset": "Scene",
+    "Version": "1.140223",
+    "Game Objects": [
+        {
+            "Name": "DigipenLogo",
+            "Transform": {
+                "Scale": [
+                    200,
+                    58.36
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Active": [
+                        "./Assets/Textures\\DigiPen_Singapore_WEB_WHITE.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ],
+                    "Inactive": [
+                        "./Assets/Textures\\Empty_Texture.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            },
+            "Splash_Behaviour": {}
+        },
+        {
+            "Name": "FmodLogo",
+            "Transform": {
+                "Scale": [
+                    200,
+                    52.75
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Active": [
+                        "./Assets/Textures\\FMOD Logo White - Black Background.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ],
+                    "Inactive": [
+                        "./Assets/Textures\\Empty_Texture.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            },
+            "Splash_Behaviour": {}
+        },
+        {
+            "Name": "IPSLogo",
+            "Transform": {
+                "Scale": [
+                    480,
+                    270
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Active": [
+                        "./Assets/Textures\\In Plain Sight Logo.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ],
+                    "Inactive": [
+                        "./Assets/Textures\\Empty_Texture.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            },
+            "Splash_Behaviour": {}
+        }
+    ]
+}

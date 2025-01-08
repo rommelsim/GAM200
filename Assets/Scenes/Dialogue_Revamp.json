@@ -1,0 +1,371 @@
+{
+    "Game Objects": [
+      {
+        "Name": "Holding Picture Q1",
+        "Transform": {
+            "Scale": [
+               435.0,
+               369.50
+              ],
+              "Rotation Angle": 0.0,
+              "Rotation Speed": 0.0,
+              "Translate": [
+                -126.0,
+                260.50
+              ]
+        },
+        "Font" :
+        {
+            "Text": "What are you doing with that photo?",
+            "Font Path" : "./Assets/Fonts/IndieFlower.ttf",
+            "Scale": [
+                95.0,
+                100.0
+            ],
+            "Translate": [
+                -433.50,
+                260.50
+            ]
+        },
+        "Dialogue":
+        {
+            "Dialogue Type" : "Prompt",
+            "Dialogue Text" : "What are you doing with that photo?",
+            "Parent Node"   : "Node #1"
+        },
+        "Texture":{
+            "Is Rendering" : false,
+            "Animating": false,
+            "Render Layer": "UI Elements",
+            "Render Priority": "6",
+            "Texture Path"   : "./Assets/Textures/UI_Dialogue_TextBox.png"
+        }
+      },
+      {
+        "Name": "Officer Moose Option",
+        "Collision": {
+          "Min": [
+              -657.0,
+              -96.0
+          ],
+          "Max": [
+              -297.0,
+              -36.0
+          ],
+          "Scale": [
+            360.0,
+            60.0
+          ],
+          "Position": [
+            -477.50,
+            -66.00
+          ]
+        },
+        "Transform": {
+            "Scale": [
+               379.0,
+               333.50
+              ],
+              "Rotation Angle": 0.0,
+              "Rotation Speed": 0.0,
+              "Translate": [
+                -477.50,
+                -66.00
+              ]
+        },
+        "Dialogue" : {
+          "Dialogue Type"       : "Option",
+          "Option Text"         : "I was just about to show it to Officer Moose",
+          "Next Dialogue Name"  : "Node #2", 
+          "Suspicion Level"     : 0,
+          "Parent Node"         : "Node #1"
+        },
+        "Texture":{
+          "Is Rendering" : false,
+          "Animating": false,
+          "Render Layer": "UI Elements",
+          "Render Priority": "6",
+          "Texture Path"   : "./Assets/Textures/UI_Dialogue_SelectionBox_NotSelected.png"
+        },
+        "Font": {
+          "Text": "I was just about to show it to Officer Moose",
+          "Font Path": "./Assets/Fonts/IndieFlower.ttf",
+          "Scale": [
+            69.0,
+            200.0
+            ],
+        "Translate": [
+            -780.50,
+            -89.50
+            ]
+        }
+      },
+      {
+        "Name": "Secure Bag Option", 
+        "Collision": {
+          "Min": [
+              130.0,
+              -96.0
+          ],
+          "Max": [
+              490.0,
+              -36.0
+          ],
+          "Scale": [
+            360.0,
+            60.0
+          ],
+          "Position": [
+            310.0,
+            -66.0
+          ]
+        },
+        "Transform" :
+        {
+          "Scale" : [
+            379.0,
+            333.5
+          ],
+          "Rotation Angle" : 0.0,
+          "Rotation Speed" : 0.0, 
+          "Translate" : 
+          [
+            310.0,
+            -66.0
+          ]
+        },
+        "Dialogue" : {
+          "Dialogue Type" : "Option",
+          "Dialogue Text" : "About to secure the evidence in a bag",
+          "Next Dialogue Name" : "NULL",
+          "Suspicion Level": 1,
+          "Parent Node" : "Node #1"
+        },
+        "Font": {
+          "Text": "About to secure the evidence in a bag",
+          "Font Path": "./Assets/Fonts/IndieFlower.ttf",
+          "Scale" : [
+            69.0,
+            200.0
+          ],
+          "Translate" : 
+          [
+            32.00,
+            -89.50
+          ]
+
+        },
+        "Texture":{
+          "Is Rendering" : false,
+          "Animating": false,
+          "Render Layer": "UI Elements",
+          "Render Priority": "6",
+          "Texture Path"   : "./Assets/Textures/UI_Dialogue_SelectionBox_NotSelected.png"
+        }
+
+      },
+      {
+        "Name": "NPC Muse32",
+        "Tag": "NPC",
+        "Transform": {
+            "Scale": [
+                40.0,
+                50.0
+            ],
+            "Rotation Angle": 0.0,
+            "Rotation Speed": 0.0,
+            "Translate": [
+                -695,
+                -42
+            ]
+        },
+        "Collision": {
+            "Min": [
+                -269.16998291015625,
+                39.08955383300781
+            ],
+            "Max": [
+                -169.1699981689453,
+                139.0895538330078
+            ],
+            "Scale": [
+                50.0,
+                50.0
+            ],
+            "Position": [
+                -531.0,
+                21.0
+            ]
+        },
+        "Texture": {
+            "Animating": true,
+            "Render Layer": "Foreground",
+            "Render Priority": "8",
+            "States": {
+                "Idle": [
+                    "./Assets/Textures/NPC_Deer_Idle_6R_10C_60F.png",
+                    6,
+                    10,
+                    60,
+                    1.0
+                ],
+                "Walking": [
+                    "./Assets/Textures/NPC_Deer_Walk_5R_6C_27F.png",
+                    5,
+                    6,
+                    27,
+                    1.0
+                ],
+                "Alert": [
+                    "./Assets/Textures/NPC_Deer_Alert_5R_8C_40F.png",
+                    5,
+                    8,
+                    40,
+                    1.0
+                ]
+            }
+        },
+        "NPC_Behaviour": {
+            "Movement Speed": 0.5
+        }, 
+        "Dialogue Child": "Node #1"
+    },
+    {
+      "Name": "Player9",
+      "Tag": "Player",
+      "Transform": {
+          "Scale": [
+              -40.0,
+              50.0
+          ],
+          "Rotation Angle": 0.0,
+          "Rotation Speed": 0.0,
+          "Translate": [
+              -601.5,
+              -618.5
+          ]
+      },
+      "Collision": {
+          "Min": [
+              -651.5,
+              -668.5
+          ],
+          "Max": [
+              -551.5,
+              -568.5
+          ],
+          "Scale": [
+              50.0,
+              50.0
+          ],
+          "Position": [
+              -601.5,
+              -618.5
+          ]
+      },
+      "Texture": {
+          "Is Rendering" : true, 
+          "Animating": true,
+          "Render Layer": "Foreground",
+          "Render Priority": "8",
+          "States": {
+              "Idle": [
+                  "./Assets/Textures/MainCharacter_Idle_8R_11C_80F.png",
+                  8,
+                  11,
+                  80,
+                  1.0
+              ],
+              "Walking": [
+                  "./Assets/Textures/MainCharacter_Walk_5R_7C_30F.png",
+                  5,
+                  7,
+                  30,
+                  1.0
+              ],
+              "Cleaning Broom": [
+                  "./Assets/Textures/MainCharacter_Clean_Broom_5R_5C_24F.png",
+                  5,
+                  5,
+                  24,
+                  1.0
+              ],
+              "Idle Broom": [
+                  "./Assets/Textures/MainCharacter_Idle_HoldingBroom_8R_11C_80F.png",
+                  8,
+                  11,
+                  80,
+                  1
+              ],
+              "Walking Broom": [
+                  "./Assets/Textures/MainCharacter_Walk_Broom_5R_7C_30F.png",
+                  5,
+                  7,
+                  30,
+                  1
+              ],
+              "Idle Paper": [
+                  "./Assets/Textures/MainCharacter_Idle_Paper_8R_11C_80F.png",
+                  8,
+                  11,
+                  80,
+                  1
+              ],
+              "Walk Paper": [
+                  "./Assets/Textures/MainCharacter_Walk_Paper_5R_7C_30F.png",
+                  5,
+                  7,
+                  30,
+                  1
+              ],
+              "Idle Photo": [
+                  "./Assets/Textures/MainCharacter_Idle_Photo_8R_11C_80F.png",
+                  8,
+                  11,
+                  80,
+                  1
+              ],
+              "Walk Photo": [
+                  "./Assets/Textures/MainCharacter_Walk_Photo_5R_7C_30F.png",
+                  5,
+                  7,
+                  30,
+                  1
+              ],
+              "Idle Trashbag": [
+                  "./Assets/Textures/MainCharacter_Idle_Trashbag_8R_11C_80F.png",
+                  8,
+                  11,
+                  80,
+                  1
+              ],
+              "Walk Trashbag": [
+                  "./Assets/Textures/MainCharacter_Walk_Trashbag_5R_7C_30F.png",
+                  5,
+                  7,
+                  30,
+                  1
+              ],
+              "Search": [
+                  "./Assets/Textures/MainCharacter_Search_6R_7C_40F.png",
+                  6,
+                  7,
+                  40,
+                  1
+              ]
+          }
+      },
+      "Player_Behaviour": {
+          "Movement Speed": 5.0
+      }
+  }
+
+      
+
+
+
+
+
+
+    ]
+}

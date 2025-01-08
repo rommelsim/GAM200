@@ -1,0 +1,71 @@
+10
+Mainmenu_Background
+0,0		#Position Transform->Translate ->X ->Y
+500,500	#Scale Transform->Scale ->X ->Y
+0,0,0		#Color    Color                ->R ->G ->B
+1      #gotTexture 
+./Assets/Textures/UI_StartMenu_BG.png 0 #Texture (if static, "0"/ if animated, "1")
+0      #gotCollider-> (no collider, "0" / got collider, "1")
+0      #isWaypoint -> (not a waypoint, "0" / is a waypoint, "1")
+0      #hasAI      -> (no AI ,"0" / has AI , "1")
+
+GameLogo 
+-600,300
+300,300
+0,0,0 
+1 
+./Assets/Textures/UI_GameLogo.png 0
+0 
+0 
+0
+
+Start_Button
+-600,100
+250,250
+0,0,0 
+1 
+./Assets/Textures/UI_StartMenu_Button_Start.png 0
+0 
+0 
+0
+
+HowToPlay_Button
+-600,0
+250,250
+0,0,0 
+1 
+./Assets/Textures/UI_StartMenu_Button_HowtoPlay.png 0
+0 
+0 
+0
+
+Settings_Button
+-600,-100
+250,250
+0,0,0 
+1 
+./Assets/Textures/UI_StartMenu_Button_Settings.png 0
+0 
+0 
+0
+
+Credits_Button
+-600,-200
+250,250
+0,0,0 
+1 
+./Assets/Textures/UI_StartMenu_Button_Credits.png 0
+0 
+0 
+0
+
+Exit_Button 
+-600,-300
+250,250
+0,0,0 
+1 
+./Assets/Textures/UI_StartMenu_Button_Exit.png 0
+0 
+0 
+0
+

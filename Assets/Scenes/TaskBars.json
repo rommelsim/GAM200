@@ -1,0 +1,63 @@
+{
+    "Level": "Level 0",
+    "Asset": "Scene",
+    "Version": "1.140223",
+    "Game Objects": [
+        {
+            "Name": "TASKBAR_BG0",
+            "Transform": {
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    -133.63296508789063,
+                    152.57078552246094
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\UI_TaskBar_BG.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "TASKBAR_Fill1",
+            "Transform": {
+                "Scale": [
+                    95.0,
+                    25.0
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    -132.6300048828125,
+                    157.57000732421875
+                ]
+            },
+            "Texture": {
+                "Render Layer": "Background",
+                "Render Priority": "0",
+                "States": {
+                    "Null": [
+                        "./Assets/Textures\\UI_TaskBarFill.png",
+                        1,
+                        1,
+                        1,
+                        1.0
+                    ]
+                }
+            }
+        }
+    ]
+}

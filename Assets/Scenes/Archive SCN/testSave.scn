@@ -1,0 +1,81 @@
+7
+AI #Object Name
+347.44,25.19 #Position Transform->Translate ->X ->Y
+50.00,50.00 #Position Transform->Translate ->X ->Y
+X,X,X #Color Color ->R ->G ->B
+1 #gotTexture
+./Assets/Textures/sprite.png 1 #Texture (if static, "0" if animated, "1")
+0.1,1,4,8,3,8 #Animator ->timeDelay ->isLoop ->texRows ->texCols ->rowUsed ->framesUsed
+0  #gotCollider-> (no collider, 0 / got collider, 1)
+0 #isWaypoint ->(not a waypoint, 0 / is a waypoint, 1)
+1      #hasAI      -> (no AI , 0 / has AI , 1)
+Player#Target -> (name of the gameobject of the AI's target)
+
+Player
+-543.20,280.24 #Position Transform->Translate ->X ->Y
+50.00,50.00 #Position Transform->Translate ->X ->Y
+X,X,X
+1 #gotTexture
+./Assets/Textures/Character_MainCharacter_Sprite.png 0 #Texture (if static, "0" if animated, "1")
+0  #gotCollider-> (no collider, 0 / got collider, 1)
+0 #isWaypoint ->(not a waypoint, 0 / is a waypoint, 1)
+0      #hasAI      -> (no AI , 0 / has AI , 1)
+
+waypoint_0
+-400.00,0.00 #Position Transform->Translate ->X ->Y
+50.00,50.00 #Position Transform->Translate ->X ->Y
+X,X,X
+1 #gotTexture
+./Assets/Textures/Character_NPC_3_Sprite.png 0 #Texture (if static, "0" if animated, "1")
+0  #gotCollider-> (no collider, 0 / got collider, 1)
+1 #isWaypoint -> (not a waypoint, 0 / is a waypoint, 1)
+2#noOfNeighbours
+waypoint_2,waypoint_3, #NeighbourNode->name of waypoint node that is neighbour to this node.
+0      #hasAI      -> (no AI , 0 / has AI , 1)
+
+waypoint_1
+-50.00,200.00 #Position Transform->Translate ->X ->Y
+50.00,50.00 #Position Transform->Translate ->X ->Y
+X,X,X
+1 #gotTexture
+./Assets/Textures/Character_NPC_2_Sprite.png 0 #Texture (if static, "0" if animated, "1")
+0  #gotCollider-> (no collider, 0 / got collider, 1)
+1 #isWaypoint -> (not a waypoint, 0 / is a waypoint, 1)
+2#noOfNeighbours
+waypoint_2,waypoint_3, #NeighbourNode->name of waypoint node that is neighbour to this node.
+0      #hasAI      -> (no AI , 0 / has AI , 1)
+
+waypoint_2
+400.00,0.00 #Position Transform->Translate ->X ->Y
+50.00,50.00 #Position Transform->Translate ->X ->Y
+X,X,X
+1 #gotTexture
+./Assets/Textures/Character_NPC_1_Sprite.png 0 #Texture (if static, "0" if animated, "1")
+0  #gotCollider-> (no collider, 0 / got collider, 1)
+1 #isWaypoint -> (not a waypoint, 0 / is a waypoint, 1)
+3#noOfNeighbours
+waypoint_0,waypoint_1,waypoint_3, #NeighbourNode->name of waypoint node that is neighbour to this node.
+0      #hasAI      -> (no AI , 0 / has AI , 1)
+
+waypoint_3
+-50,-200 #Position Transform->Translate ->X ->Y
+50,50  #Scale Transform->Scale ->X ->Y
+X,X,X  #Color    Color                ->R ->G ->B
+1      #gotTexture 
+./Assets/Textures/Character_NPC_1_Sprite.png 0 #Texture (if static, "0"/ if animated, "1")
+0      #gotCollider-> (no collider, "0" / got collider, "1")
+1      #isWaypoint -> (not a waypoint, "0" / is a waypoint, "1")
+3      #noOfNeighbours
+waypoint_0,waypoint_1,waypoint_2 #NeighbourNode -> name of waypoint node that is neighbour to this node.
+0      #hasAI      -> (no AI ,"0" / has AI , "1")
+
+BackgroundMap
+0.00,0.00 #Position Transform->Translate ->X ->Y
+1000.00,1000.00 #Position Transform->Translate ->X ->Y
+0.00,0.00,0.00 #Color Color ->R ->G ->B
+1 #gotTexture
+./Assets/Textures/Environment_Background_Concept.png 0 #Texture (if static, "0" if animated, "1")
+0  #gotCollider-> (no collider, 0 / got collider, 1)
+0 #isWaypoint ->(not a waypoint, 0 / is a waypoint, 1)
+0      #hasAI      -> (no AI , 0 / has AI , 1)
+

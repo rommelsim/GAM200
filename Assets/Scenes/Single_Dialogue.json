@@ -1,0 +1,21 @@
+{
+    "Dialogues": [
+      {
+        "Name": "Holding Picture Q1",
+        "Prompt": "What are you doing with that photo?",
+        "Number of Options": 2,
+        "Options": [
+          "Officer Moose Option",
+          "I was just about to show it to\n Officer Moose.",
+          "Officer Moose Whereabouts",
+          false,
+          0,
+          "Secure Bag Option",
+          "About to secure the evidence\n in a bag.",
+          "NULL",
+          true,
+          1
+        ]
+      }
+    ]
+  }

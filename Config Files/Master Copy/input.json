@@ -1,0 +1,142 @@
+{
+    "Game Objects": [
+        {
+            "Name": "Bunny",
+            "Color": {
+                "RGB": [
+                    0.5,
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation Angle": 45.0,
+                "Rotation Speed": 2.450000047683716,
+                "Translate": [
+                    250.0,
+                    250.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -10.0,
+                    -10.0
+                ],
+                "Max": [
+                    10.0,
+                    10.0
+                ],
+                "Scale": [
+                    10.0,
+                    10.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Animating": true,
+                "States": {
+                    "Idle": [
+                        "./Assets/Textures/NPC_Bunny_Idle_40.png",
+                        40,
+                        0.10000000149011612
+                    ],
+                    "Walking": [
+                        "./Assets/Textures/NPC_Bunny_Walk_27.png",
+                        27,
+                        0.5
+                    ],
+                    "Cleaning": [
+                        "",
+                        0,
+                        0.0
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Main Character",
+            "Color": {
+                "RGB": [
+                    0.5,
+                    0.0,
+                    0.0
+                ]
+            },
+            "Transform": {
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation Angle": 0.0,
+                "Rotation Speed": 0.0,
+                "Translate": [
+                    -100.0,
+                    -100.0
+                ]
+            },
+            "Collision": {
+                "Min": [
+                    -10.0,
+                    -10.0
+                ],
+                "Max": [
+                    10.0,
+                    10.0
+                ],
+                "Scale": [
+                    10.0,
+                    10.0
+                ],
+                "Position": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "Texture": {
+                "Animating": true,
+                "States": {
+                    "Idle": [
+                        "./Assets/Textures/MainCharacter_Idle_80.png",
+                        80,
+                        0.5
+                    ],
+                    "Walking": [
+                        "./Assets/Textures/MainCharacter_Walk_30.png",
+                        30,
+                        0.10000000149011612
+                    ],
+                    "Cleaning": [
+                        "./Assets/Textures/MainCharacter_Clean_Broom_24.png",
+                        24,
+                        0.5
+                    ]
+                }
+            },
+            "Font": {
+                "Font Path": "./Assets/Fonts/arial.ttf"
+            }
+        },
+        {
+            "Name": "GO_2",
+            "Transform": {
+                "Scale": [
+                    200.0,
+                    200.0
+                ],
+                "Rotation Angle": 90.0,
+                "Rotation Speed": 5.449999809265137,
+                "Translate": [
+                    300.0,
+                    300.0
+                ]
+            }
+        }
+    ]
+}

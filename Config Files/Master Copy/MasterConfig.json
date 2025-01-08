@@ -1,0 +1,70 @@
+{
+    "Filename":"StormEngine Master Config",
+    "Version": "1.0.230131",
+    "Editor":[
+        {
+            "System" : "Graphics",
+            "Window" :
+            {
+                "Title" : "StormEngine",
+                "Fullscreen" : "OFF",
+                "Width" : 1440,
+                "Height" : 810
+            },
+            "Performance" : {
+                "FPS":60,
+                "Profiler": "ON" 
+            },
+
+            "Theme": 
+            {
+                "Type" : "Preset",
+                "Current" : "Hurricane Blue"
+            }
+            
+        },
+        {
+            "System": "Audio",
+            "BGM" : 
+            {
+                "State": "ON",
+                "Name" : "BGM_ROCK",
+                "Volume" : 20
+            },
+            "Assets" :
+            {
+                "State" :"ON",
+                "Volume" : 20
+            }
+        }
+        
+    ]
+    ,
+    "Game":[
+        {
+            "System" : "Graphics",
+            "Window" :
+            {
+                "Title" : "Game Name",
+                "Fullscreen" : "OFF",
+                "Width" : 1440,
+                "Height" : 810
+            },
+            "Performance" : {
+                "FPS":60
+            } 
+        },
+        {
+            "System": "Audio",
+            "Volumes" : 
+            {
+                "BGM": 20,
+                "Game" : 20,
+                "Menu" : 20
+            }
+        }
+        
+    ]
+
+}
+

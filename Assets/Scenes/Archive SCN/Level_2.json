@@ -1,0 +1,39 @@
+{
+
+    "Game Objects": [
+      {
+        "Name": "Player",
+        "Transform": {
+          "Scale": [ 100.0, 100.0 ],
+          "Rotation Angle": 0.0,
+          "Rotation Speed": 0.0,
+          "Translate": [ 307.7584533691406, -88.54859161376953 ]
+        },
+        "Texture": {
+          "Animating": false,
+          "Render Layer": "Background",
+          "Texture Path": "./Assets/Textures/Character_MainCharacter_Sprite.png",
+          "Render Priority": "0"
+        },
+        "Player_Behaviour": {
+          "Health": 100,
+          "Movement Speed": 20.0
+        }
+      },
+      {
+        "Name": "Bunny NPC",
+        "Transform": {
+          "Scale": [ 100.0, 100.0 ],
+          "Rotation Angle": 0.0,
+          "Rotation Speed": 0.0,
+          "Translate": [ 450, 450 ]
+        },
+        "Texture": {
+          "Animating": false,
+          "Render Layer": "Background",
+          "Texture Path": "./Assets/Textures/Character_NPC_3_Sprite.png",
+          "Render Priority": "0"
+        }
+      }
+    ]
+  }

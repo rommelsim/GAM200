@@ -1,0 +1,78 @@
+7
+Evidence_0 #Object Name
+-5.18,293.82 #Position Transform->Translate ->X ->Y
+50.00,50.00 #Position Transform->Translate ->X ->Y
+X,X,X #Color Color ->R ->G ->B
+1 #gotTexture
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0 #Texture (if static, "0" if animated, "1")
+1 #gotCollider-> (no collider, 0 / got collider, 1)
+(-55.18,243.82) (44.81,343.82) #Collision Collision ->Min(x,y) ->Max(x,y)
+0 #isWaypoint ->(not a waypoint, 0 / is a waypoint, 1)
+0      #hasAI      -> (no AI , 0 / has AI , 1)
+
+Evidence_1
+-378.51,29.38 #Position Transform->Translate ->X ->Y
+50.00,50.00 #Position Transform->Translate ->X ->Y
+X,X,X
+1 #gotTexture
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0 #Texture (if static, "0" if animated, "1")
+1 #gotCollider-> (no collider, 0 / got collider, 1)
+(-428.51,-20.61) (-328.51,79.38) #Collision Collision ->Min(x,y) ->Max(x,y)
+0 #isWaypoint ->(not a waypoint, 0 / is a waypoint, 1)
+0      #hasAI      -> (no AI , 0 / has AI , 1)
+
+Evidence_2
+53.58,-212.59 #Position Transform->Translate ->X ->Y
+50.00,50.00 #Position Transform->Translate ->X ->Y
+X,X,X
+1 #gotTexture
+./Assets/Textures/Environment_Evidence_GlassPieces.png 0 #Texture (if static, "0" if animated, "1")
+1 #gotCollider-> (no collider, 0 / got collider, 1)
+(3.58,-262.59) (103.58,-162.59) #Collision Collision ->Min(x,y) ->Max(x,y)
+0 #isWaypoint ->(not a waypoint, 0 / is a waypoint, 1)
+0      #hasAI      -> (no AI , 0 / has AI , 1)
+
+NPC_0
+-338.76,314.56 #Position Transform->Translate ->X ->Y
+100.00,100.00 #Position Transform->Translate ->X ->Y
+X,X,X
+1 #gotTexture
+./Assets/Textures/Character_NPC_1_Sprite.png 0 #Texture (if static, "0" if animated, "1")
+1 #gotCollider-> (no collider, 0 / got collider, 1)
+(-388.76,264.56) (-288.76,364.56) #Collision Collision ->Min(x,y) ->Max(x,y)
+0 #isWaypoint ->(not a waypoint, 0 / is a waypoint, 1)
+0      #hasAI      -> (no AI , 0 / has AI , 1)
+
+NPC_1
+-577.28,-212.59 #Position Transform->Translate ->X ->Y
+100.00,100.00 #Position Transform->Translate ->X ->Y
+X,X,X
+1 #gotTexture
+./Assets/Textures/Character_NPC_1_Sprite.png 0 #Texture (if static, "0" if animated, "1")
+1 #gotCollider-> (no collider, 0 / got collider, 1)
+(-627.28,-262.59) (-527.28,-162.59) #Collision Collision ->Min(x,y) ->Max(x,y)
+0 #isWaypoint ->(not a waypoint, 0 / is a waypoint, 1)
+0      #hasAI      -> (no AI , 0 / has AI , 1)
+
+Player_0
+382.71,120.98 #Position Transform->Translate ->X ->Y
+74.00,110.00 #Position Transform->Translate ->X ->Y
+X,X,X
+1 #gotTexture
+./Assets/Textures/Character_MainCharacter_Sprite.png 0 #Texture (if static, "0" if animated, "1")
+1 #gotCollider-> (no collider, 0 / got collider, 1)
+(332.71,70.98) (432.71,170.98) #Collision Collision ->Min(x,y) ->Max(x,y)
+0 #isWaypoint ->(not a waypoint, 0 / is a waypoint, 1)
+0      #hasAI      -> (no AI , 0 / has AI , 1)
+
+Tools_0
+617.03,324.93 #Position Transform->Translate ->X ->Y
+50.00,50.00 #Position Transform->Translate ->X ->Y
+X,X,X
+1 #gotTexture
+./Assets/Textures/Environment_Evidence_Mop.png 0 #Texture (if static, "0" if animated, "1")
+1 #gotCollider-> (no collider, 0 / got collider, 1)
+(567.03,274.93) (667.03,374.93) #Collision Collision ->Min(x,y) ->Max(x,y)
+0 #isWaypoint ->(not a waypoint, 0 / is a waypoint, 1)
+0      #hasAI      -> (no AI , 0 / has AI , 1)
+

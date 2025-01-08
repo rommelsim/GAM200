@@ -1,0 +1,71 @@
+{
+  "Level": "How To Play",
+  "Asset": "Scene",
+  "Version": "1.140223",
+  "Game Objects": [
+    {
+      "Name": "HTP Bg38",
+      "Transform": {
+        "Scale": [ 845.0, 450.0 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ 3.755002021789551, -21.149255752563477 ]
+      },
+      "Collision": {
+        "Min": [ -46.244998931884766, -71.14925384521484 ],
+        "Max": [ 53.755001068115234, 28.850744247436523 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Position": [ 3.755002021789551, -21.149255752563477 ]
+      },
+      "Texture": {
+        "Render Priority": "0",
+        "Render Layer": "Gameplay",
+        "States": {
+          "Null": [
+            "./Assets/Textures\\UI_HowToPlay_BG.png",
+            1,
+            1,
+            1,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "Name": "Exit Btn Default39",
+      "Transform": {
+        "Scale": [ 300, 300 ],
+        "Rotation Angle": 0.0,
+        "Rotation Speed": 0.0,
+        "Translate": [ -650.0, 300.0 ]
+      },
+      "Collision": {
+        "Min": [ -246.7259521484375, 25.77611541748047 ],
+        "Max": [ -146.7259521484375, 125.77611541748047 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Position": [ -650.0, 300.0 ]
+      },
+      "Texture": {
+        "Render Priority": "1",
+        "Render Layer": "Gameplay",
+        "States": {
+          "Mouse Idle": [
+            "./Assets/Textures\\Exit_Button_Default.png",
+            1,
+            1,
+            1,
+            1.0
+          ],
+          "Mouse Hovering": [
+            "./Assets/Textures\\VFX_Settings_Exit_Red_4R_5C_20F.png",
+            4,
+            5,
+            20,
+            1.0
+          ]
+        }
+      },
+      "Button_Behaviour": {}
+    }
+  ]
+}

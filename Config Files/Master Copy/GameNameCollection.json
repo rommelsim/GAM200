@@ -1,0 +1,15 @@
+{
+    "Name": "Game Name",
+    "Scenes": 3,
+    "Order": [
+        {
+            "Scene 1": "Scene name"
+        },
+        {
+            "Scene 2": "Scene name"
+        },
+        {
+            "Scene 3": "Scene name"
+        }
+    ]
+}
